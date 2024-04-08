@@ -1,0 +1,6783 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="./program/style.css">
+</head>
+
+<body>
+  <nav class="nav-bar flex">
+    <div class="logo">
+      <img src="./logo.png" alt="" />
+    </div>
+    <ul class="flex">
+      <a href="./index.html">Home</a>
+      <a href="./programs.html">Programs</a>
+      <a href="./contact.html">Contact</a>
+    </ul>
+  </nav>
+  <div class="main">
+    <h2 id="top">TOPICS</h2>
+    <div class="shortcut">
+      <a href="#basics">Basics</a>
+      <a href="#strings">Strings</a>
+      <a href="#conversion">Data conversion</a>
+      <a href="#functions">Functions</a>
+      <a href="#oops">OOPS</a>
+      <a href="#overloading">Operator overloading</a>
+      <a href="#singlearrays">1-D Arrays</a>
+      <a href="#doublearrays">2-D Arrays</a>
+      <a href="#inheritance">Inheritance</a>
+      <a href="#file-handle">File Handling</a>
+      <a href="#virtual-functions">Virtual Functions</a>
+    </div>
+    <div class="sidebar">
+      <h3 id="basics">Basic Concepts</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#b1">Write a C++ program to print 'Hello World!' on screen</a>
+          </li>
+          <li>
+            <a href="#b2">Write a C++ program to print the sum of two numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b3">Write a C++ program that takes two numbers and display the
+              product of two numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b4">Write a C++ program to print the sum, multiply, subtract,
+              divide and remainder of two numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b5">Write a C++ program that takes five numbers as input to
+              calculate and print the average of the numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b6">Write a C++ program to swap two variables </a>
+          </li>
+          <li>
+            <a href="#b7">Write a C++ program to convert a decimal number to binary
+              numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b8">Write a C++ program to convert a binary number to decimal
+              number
+            </a>
+          </li>
+          <li>
+            <a href="#b9">Write a C++ program to check whether C++ is installed on your
+              computer or not
+            </a>
+          </li>
+          <li class="">
+            <a href="#b10">Write a C++ program and compute the sum of the digits of an
+              integer
+            </a>
+          </li>
+          <li class="">
+            <a href="#b11">Write a C++ program to compare two numbers </a>
+          </li>
+          <li>
+            <a href="#b12">Write a C++ program to count the letters, spaces, numbers and
+              other characters of an input string</a>
+          </li>
+          <li>
+            <a href="#b13">
+              Write a C++ program to print the ascii value of a given
+              character
+            </a>
+          </li>
+          <li>
+            <a href="#b14">Write a C++ program that accepts an integer (n) and computes
+              the value of n+nn+nnn
+            </a>
+          </li>
+          <li>
+            <a href="#b15">
+              Write a C++ program to display the system time
+            </a>
+          </li>
+          <li class="">
+            <a href="#b16">Write a C++ program to print the odd numbers from 1 to 20
+            </a>
+          </li>
+          <li class="">
+            <a href="#b17">
+              Write a C++ program to print the even numbers from 1 to 20
+            </a>
+          </li>
+          <li>
+            <a href="#b18">
+              Write a C++ program to convert a string to an integer
+            </a>
+          </li>
+          <li>
+            <a href="#b19">
+              Write a C++ program to convert seconds to hour, minute and
+              seconds
+            </a>
+          </li>
+          <li>
+            <a href="#b20">
+              Write a C++ program to compute the sum of the first 100 prime
+              numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b21">
+              Write a C++ program to compute the square root of an given
+              integer
+            </a>
+          </li>
+          <li>
+            <a href="#b22">
+              Write a C++ program to check if a positive number is a
+              palindrome or not
+            </a>
+          </li>
+          <li class="">
+            <a href="#b23">
+              Write a C++ program to add two numbers without using any
+              arithmetic operators
+            </a>
+          </li>
+          <li class="">
+            <a href="#b24">
+              Write a C++ program to add all the digits of a given positive
+              integer
+            </a>
+          </li>
+          <li class="">
+            <a href="#b25"> C++ program to find area of circle </a>
+          </li>
+          <li class="">
+            <a href="#b26">C++ Program to find area of rectangle</a>
+          </li>
+          <li class="">
+            <a href="#b27"> C++ Program to find area of triangle </a>
+          </li>
+          <li>
+            <a href="#b28">C++ Program to find area of equilateral triangle
+            </a>
+          </li>
+          <li><a href="#b29"> C++ Program to find area of rhombus </a></li>
+          <li class="">
+            <a href="#b30"> C++ Program to find area of parallelogram </a>
+          </li>
+          <li><a href="#b31"> C++ Program to find area of Prism </a></li>
+          <li class="">
+            <a href="#b32"> C++ Program to find volume of sphere </a>
+          </li>
+          <li class="">
+            <a href="#b33">C++ Program to find volume of cylinder </a>
+          </li>
+          <li class="">
+            <a href="#b34"> C++ Program to find volume of cuboid </a>
+          </li>
+          <li class="">
+            <a href="#b35"> C++ Program to find volume of cone </a>
+          </li>
+          <li>
+            <a href="#b36"> C++ program to find surface area of cuboid </a>
+          </li>
+          <li>
+            <a href="#b37"> C++ program to find surface area of cylinder </a>
+          </li>
+          <li>
+            <a href="#b38"> C++ program to find surface area of cube </a>
+          </li>
+          <li><a href="#b39"> C++ program to calculate average marks </a></li>
+          <li>
+            <a href="#b40"> C++ program to check vowel or consonant </a>
+          </li>
+          <li><a href="#b41"> C++ program to sum of N numbers </a></li>
+          <li>
+            <a href="#b42"> C++ program to find factorial of any number </a>
+          </li>
+          <li>
+            <a href="#b43"> C++ Program to calculate electricity bill </a>
+          </li>
+          <li>
+            <a href="#b44"> C++ Program To Calculate CGPA Percentage </a>
+          </li>
+          <li>
+            <a href="#b45"> C++ Program to calculate compound interest </a>
+          </li>
+          <li>
+            <a href="#b46"> C++ Program To Calculate Batting Average </a>
+          </li>
+          <li>
+            <a href="#b47">
+              C++ Program to Calculate Commission Percentage
+            </a>
+          </li>
+          <li>
+            <a href="#b48">
+              C++ Program To Find Distance Between Two Points
+            </a>
+          </li>
+          <li>
+            <a href="#b49"> C++ Program To Calculate Power Of Number </a>
+          </li>
+          <li>
+            <a href="#b50">
+              Write a C++ program to take three numbers from the user and
+              print the greatest number
+            </a>
+          </li>
+          <li class="">
+            <a href="#b51">
+              Write a C++ program to find the number of days in a month
+            </a>
+          </li>
+          <li class="">
+            <a href="#b52">
+              Write a C++ program to test a number is positive or negative
+            </a>
+          </li>
+          <li class="">
+            <a href="#b53">
+              Write a C++ Program to accept number of week's day (1-7) and
+              print name of the day
+            </a>
+          </li>
+          <li class="">
+            <a href="#b54">
+              Write a C++ program that takes a year from user and print
+              whether that year is a leap year or not
+            </a>
+          </li>
+          <li>
+            <a href="#b55">
+              Write a C++ program to input 5 numbers from keyboard and find
+              their sum and average
+            </a>
+          </li>
+          <li>
+            <a href="#b56">
+              Write a program in C++ to display the first 5 natural numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b57">
+              Write a C++ program to check vowel or consonant
+            </a>
+          </li>
+          <li>
+            <a href="#b58">
+              Write a C++ program to display the cube of the number upto given
+              an integer
+            </a>
+          </li>
+          <li>
+            <a href="#b59">
+              Write a C++ program to display the n terms of odd natural number
+              and their sum
+            </a>
+          </li>
+          <li>
+            <a href="#b60">
+              Write a C++ program to display the multiplication table of a
+              given integer
+            </a>
+          </li>
+          <li>
+            <a href="#b61">
+              Write a C++ program thatreads an integer and check whether it is
+              negative, zero, or positive
+            </a>
+          </li>
+          <li>
+            <a href="#b62">
+              Write a C++ program that reads an positive integer and count the
+              number of digits
+            </a>
+          </li>
+          <li>
+            <a href="#b63">
+              Write a C++ program that accepts three numbers and check All
+              numbers are equal or not
+            </a>
+          </li>
+          <li>
+            <a href="#b64">
+              Write a C++ program that accepts three numbers from the user and
+              check if numbers are in "increasing" or "decreasing" order.
+            </a>
+          </li>
+          <li>
+            <a href="#b65">
+              Write a C++ program that determines a student's grade (81-100 :
+              A, 61-80 : B, 41-60 : C, 0-40 : D)
+            </a>
+          </li>
+          <li>
+            <a href="#b66">
+              Write a C++ program to create a simple calculator (1. ADDITION,
+              2. SUBTRACTION, 3. MULTIPLICATION, 4. DIVISION, 5. EXPONENTIAL,
+              6. PERCENTAGE, 7. EXIT)
+            </a>
+          </li>
+          <li>
+            <a href="#b67"> Write a C++ program to concatenate two string </a>
+          </li>
+          <li>
+            <a href="#b68">
+              Write a C++ program to convert all characters in a string to
+              lowercase
+            </a>
+          </li>
+          <li>
+            <a href="#b69">
+              Write a C++ program to convert all characters in a string to
+              uppercase
+            </a>
+          </li>
+          <li>
+            <a href="#b70">
+              Write a C++ program to trim a string (remove whitespaces)
+            </a>
+          </li>
+          <li>
+            <a href="#b71">
+              Write a C++ program to get a substring of a given string between
+              two specified positions
+            </a>
+          </li>
+          <li>
+            <a href="#b72">
+              Write a C++ program to replace all the 'd' characters with 'f'
+              characters
+            </a>
+          </li>
+          <li>
+            <a href="#b73">
+              Write a C++ program to get the length of a given string
+            </a>
+          </li>
+          <li>
+            <a href="#b74">
+              Write a C++ program to print current date and time in the
+              specified format
+            </a>
+          </li>
+          <li>
+            <a href="#b75">
+              Write a C++ program to get the character at the given index
+              within the String
+            </a>
+          </li>
+          <li>
+            <a href="#b76">
+              Write a C++ program to remove a particular character from a
+              string
+            </a>
+          </li>
+          <li>
+            <a href="#b77"> Write a C++ program to reverse a String </a>
+          </li>
+          <li>
+            <a href="#b78">
+              Write a C++ program to remove html tags from a string
+            </a>
+          </li>
+          <li>
+            <a href="#b79">
+              Write a C++ program to count total number of lines from a string
+            </a>
+          </li>
+          <li>
+            <a href="#b80">
+              Write a C++ Program to Accept the Marks of a Student and find
+              Total Marks and Percentage
+            </a>
+          </li>
+          <li>
+            <a href="#b81">
+              Write a C++ program to print numbers from 1 to 10 using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b82">
+              Write a C++ program to calculate the sum of first 10 natural
+              number using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b83">
+              Write a C++ program to print multiplication table of given
+              number
+            </a>
+          </li>
+          <li>
+            <a href="#b84">
+              Write a C++ program to find the factorial value of any number
+              entered through the keyboard
+            </a>
+          </li>
+          <li>
+            <a href="#b85">
+              Write a C++ program that prompts the user to input an integer
+              and then outputs the number with the digits reversed
+            </a>
+          </li>
+          order
+          <li>
+            <a href="#b86">
+              Write a C++ program that reads a set of integers, and then
+              prints the sum of the even and odd integers using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b87">
+              Write a C++ program to check whether the number is a prime
+              number or not
+            </a>
+          </li>
+          <li>
+            <a href="#b88">
+              Write a C++ program to calculate HCF of Two given numbers using
+              loop
+            </a>
+          </li>
+          <li>
+            <a href="#b89">
+              Write a C++ program to enter the numbers till the user wants and
+              at the end it should display the count of positive,negative and
+              zeros
+            </a>
+          </li>
+          <li>
+            <a href="#b90">
+              Write a C++ program to enter the numbers till the user wants and
+              at the end the program should display the largest and smallest
+              numbers entered
+            </a>
+          </li>
+          <li>
+            <a href="#b91">
+              Write a C++ program to print out all Armstrong numbers between 1
+              to 600 using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b92">
+              Write a C++ program to count total number of notes in entered
+              amount using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b93">
+              Write a C++ program to print Fibonacci series of n terms where n
+              is input by user using loop
+            </a>
+          </li>
+          <li>
+            <a href="#b94">
+              Write a C++ program to calculate the sum of following series
+              where n is input by user
+            </a>
+          </li>
+          <li>
+            <a href="#b95">
+              Write a C++ method to compute the average of three numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b96">
+              Write a C++ method to find the smallest number among three
+              numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b97">
+              Write a C++ method to check whether an year entered by the user
+              is a leap year or not
+            </a>
+          </li>
+          <li>
+            <a href="#b98">
+              Write a C++ program to accept a float value of number and return
+              a rounded float value
+            </a>
+          </li>
+          <li>
+            <a href="#b99">
+              Write a C++ method to compute the sum of the digits in an
+              integer
+            </a>
+          </li>
+          <li>
+            <a href="#b100">
+              Write a C++ method to calculate the area of a triangle
+            </a>
+          </li>
+          <li>
+            <a href="#b101">
+              Write a C++ method to find the area of a pentagon
+            </a>
+          </li>
+          <li>
+            <a href="#b102">
+              Write a C++ method to find number is even number or not
+            </a>
+          </li>
+          <li>
+            <a href="#b103">
+              Write a C++ method to check numbers is palindrome number or not
+            </a>
+          </li>
+          <li>
+            <a href="#b104">
+              Write a C++ method to displays prime numbers between 1 to 20
+            </a>
+          </li>
+          <li>
+            <a href="#b105">
+              Write a C++ method to find GCD and LCM of Two Numbers
+            </a>
+          </li>
+          <li>
+            <a href="#b106">
+              Write a C++ method to find factorial using recursion
+            </a>
+          </li>
+          <li>
+            <a href="#b107">
+              Write a C++ program to reverse an integer number
+            </a>
+          </li>
+          <li class="">
+            <a href="#b108">
+              Write a C++ program to round a float number to specified
+              decimals
+            </a>
+          </li>
+          <li>
+            <a href="#b109">
+              Write a C++ program to test if a double number is an integer
+            </a>
+          </li>
+          <li>
+            <a href="#b110">
+              Write a C++ program to round up the result of integer division
+            </a>
+          </li>
+          <li>
+            <a href="#b111">
+              Write a C++ program to convert Roman number to an integer number
+            </a>
+          </li>
+          <li>
+            <a href="#b112">
+              Write a C++ program to convert a float value to absolute value
+            </a>
+          </li>
+          <li>
+            <a href="#b113">
+              Create a class entering the command line arguments from the user
+              and show all the arguments as output.
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="strings">Strings</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#s1">Program to Check Anagram </a>
+          </li>
+          <li>
+            <a href="#s2">Program to Swapping Pair of Characters </a>
+          </li>
+          <li>
+            <a href="#s3">
+              Program to Check if a String contains only digits?
+            </a>
+          </li>
+          <li>
+            <a href="#s4"> Program to perform Deep Copy for String? </a>
+          </li>
+          <li>
+            <a href="#s5">
+              Program to remove all occurrences of a given character from
+              input String?
+            </a>
+          </li>
+          <li>
+            <a href="#s6"> Program to Add Characters to a String </a>
+          </li>
+          <li>
+            <a href="#s7">
+              Program to check whether a string is a Palindrome
+            </a>
+          </li>
+          <li>
+            <a href="#s8"> Program to Convert Enum to String </a>
+          </li>
+          <li>
+            <a href="#s9"> Program to count number of words in a String? </a>
+          </li>
+          <li>
+            <a href="#s10">
+              Program to count the total number of characters in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s11">
+              Program to count the total number of punctuation characters
+              exists in a String
+            </a>
+          </li>
+          <li>
+            <a href="#s12">
+              Program to count the total number of vowels and consonants in a
+              string
+            </a>
+          </li>
+          <li>
+            <a href="#s13">
+              Program to determine whether a given string is palindrome
+            </a>
+          </li>
+          <li>
+            <a href="#s14">
+              Program to determine whether one string is a rotation of another
+            </a>
+          </li>
+          <li>
+            <a href="#s15">
+              Program to divide a string in 'N' equal parts.
+            </a>
+          </li>
+          <li>
+            <a href="#s16"> Program to find all subsets of a string </a>
+          </li>
+          <li>
+            <a href="#s17">
+              Program to find all the permutations of a string
+            </a>
+          </li>
+          <li>
+            <a href="#s18">
+              Program to find maximum and minimum occurring character in a
+              string
+            </a>
+          </li>
+          <li>
+            <a href="#s19"> Program to find Reverse of the string </a>
+          </li>
+          <li>
+            <a href="#s20">
+              Program to find the duplicate characters in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s21">
+              Program to find the duplicate words in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s22"> Program to find the frequency of characters </a>
+          </li>
+          <li>
+            <a href="#s23">
+              Program to find the largest and smallest word in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s24">
+              Program to find the longest repeating sequence in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s25">
+              Program to find the most repeated word in a text file
+            </a>
+          </li>
+          <li>
+            <a href="#s26">
+              Program to find the number of the words in the given text file
+            </a>
+          </li>
+          <li>
+            <a href="#s27">
+              Program to Get a Character From the Given String
+            </a>
+          </li>
+          <li>
+            <a href="#s28">
+              Program to Insert a string into another string
+            </a>
+          </li>
+          <li>
+            <a href="#s29">
+              Program to Print a New Line in String (Each word in newline)
+            </a>
+          </li>
+          <li>
+            <a href="#s30"> Program to Print even length words </a>
+          </li>
+          <li>
+            <a href="#s31">
+              Program to print smallest and biggest possible palindrome word
+              in a given string
+            </a>
+          </li>
+          <li>
+            <a href="#s32">
+              Program to remove all the white spaces from a string
+            </a>
+          </li>
+          <li>
+            <a href="#s33">
+              Program to replace lower-case characters with upper-case and
+              vice-versa
+            </a>
+          </li>
+          <li>
+            <a href="#s34">
+              Program to replace the spaces of a string with a specific
+              character
+            </a>
+          </li>
+          <li>
+            <a href="#s35">
+              Program to separate the Individual Characters from a String
+            </a>
+          </li>
+          <li>
+            <a href="#s36">
+              Program to Splitting into a number of sub-strings
+            </a>
+          </li>
+          <li>
+            <a href="#s37">
+              Program to swap two string variables without using third or temp
+              variable.
+            </a>
+          </li>
+          <li>
+            <a href="#s38">
+              Read two String user input and check if first contains second?
+            </a>
+          </li>
+          <li>
+            <a href="#s39"> Reverse String Word by Word </a>
+          </li>
+          <li>
+            <a href="#s40">
+              Write a program to check if two Strings are created with same
+              characters?
+            </a>
+          </li>
+          <li>
+            <a href="#s41">
+              Write a program to find out first non repeated character from
+              input String?
+            </a>
+          </li>
+          <li>
+            <a href="#s42">
+              Write a C++ method to count all words in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s43">
+              Write a C++ method to count all vowels in a string
+            </a>
+          </li>
+          <li>
+            <a href="#s44">
+              Write a C++ Program to Sort Names in an Alphabetical Order
+            </a>
+          </li>
+          <li>
+            <a href="#s45">
+              Write a C++ method to count all the words in a string.
+            </a>
+          </li>
+          <li>
+            <a href="#s46">
+              Write a C++ method to compute the future investment value at a
+              given interest rate for a specified number of years.
+            </a>
+          </li>
+          <li>
+            <a href="#s47">
+              Write a C++ method to print characters between two characters
+              (i.e. A to P).
+            </a>
+          </li>
+          <li>
+            <a href="#s48">
+              Write a C++ method to check whether a string is a valid
+              password.
+            </a>
+          </li>
+          <li>
+            <a href="#s49">
+              Write a C++ method to display the current date and time.
+            </a>
+          </li>
+          <li>
+            <a href="#s50">
+              Write a C++ method that accepts three integers and returns true
+              if one is the middle point between the other two integers,
+              otherwise false
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="conversion">Data Conversion</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#d1"> C++ Program to convert String to int </a>
+          </li>
+          <li>
+            <a href="#d2"> C++ Program to convert int to String </a>
+          </li>
+          <li>
+            <a href="#d3"> C++ Program to convert String to long </a>
+          </li>
+          <li>
+            <a href="#d4"> C++ Program to convert long to String </a>
+          </li>
+          <li>
+            <a href="#d5"> C++ Program to convert String to float </a>
+          </li>
+          <li>
+            <a href="#d6"> C++ Program to convert float to String </a>
+          </li>
+          <li>
+            <a href="#d7"> C++ Program to convert String to double </a>
+          </li>
+          <li>
+            <a href="#d8"> C++ Program to convert double to String </a>
+          </li>
+          <li>
+            <a href="#d9"> C++ Program to convert char to int </a>
+          </li>
+          <li>
+            <a href="#d10"> C++ Program to convert int to char </a>
+          </li>
+          <li>
+            <a href="#d11"> C++ Program to convert Binary to Decimal </a>
+          </li>
+          <li>
+            <a href="#d12"> C++ Program to convert Decimal to Binary </a>
+          </li>
+          <li>
+            <a href="#d13"> C++ Program to convert Hex to Decimal </a>
+          </li>
+          <li>
+            <a href="#d14"> C++ Program to convert Decimal to Hex </a>
+          </li>
+          <li>
+            <a href="#d15"> C++ Program to convert Octal to Decimal </a>
+          </li>
+          <li>
+            <a href="#d16"> C++ Program to convert Decimal to Octal </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="functions">Functions</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#f1"> </a>
+          </li>
+          <li>
+            <a href="#f2">
+              Write a C++ method to compute the average of three numbers.
+            </a>
+          </li>
+          <li>
+            <a href="#f3">
+              Write a C++ method to display the middle character of a string.
+            </a>
+          </li>
+          <li>
+            <a href="#f4">
+              Write a C++ method to find all twin prime numbers less than 100.
+            </a>
+          </li>
+          <li>
+            <a href="#f5">
+              Write a C++ method to count the number of digits in an integer
+              with the value 2. The integer may be assumed to be non-negative.
+            </a>
+          </li>
+          <li>
+            <a href="#f6">
+              Write a C++ method that accepts three integers and checks
+              whether they are consecutive or not. Returns true or false.
+            </a>
+          </li>
+          <li>
+            <a href="#f7">
+              Write a C++ method that checks whether all the characters in a
+              given string are vowels (a,e,i,o,u) or not. Return true if each
+              character in the string is a vowel, otherwise return false.
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="oops">OOPS</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#o1">
+              Write a C++ program to create a class called "Person" with a
+              name and age attribute. Create two instances of the "Person"
+              class, set their attributes using the constructor, and print
+              their name and age.
+            </a>
+          </li>
+          <li>
+            <a href="#o2">
+              Write a C++ program to create a class called "Dog" with a name
+              and breed attribute. Create two instances of the "Dog"
+            </a>
+          </li>
+          class, set their attributes using the constructor and modify the
+          attributes using the setter methods and print the updated values.
+          <li>
+            <a href="#o3">
+              Write a C++ program to create a class called "Rectangle" with
+              width and height attributes. Calculate the area and
+            </a>
+          </li>
+          perimeter of the rectangle.
+          <li>
+            <a href="#o4">
+              Write a C++ program to create a class called "Circle" with a
+              radius attribute. You can access and modify this
+            </a>
+          </li>
+          attribute. Calculate the area and circumference of the circle.
+          <li>
+            <a href="#o5">
+              Write a C++ program to create a class called "Book" with
+              attributes for title, author, and ISBN, and methods to add
+            </a>
+          </li>
+          and remove books from a collection.
+          <li>
+            <a href="#o6">
+              Write a C++ program to create a class called "Employee" with a
+              name, job title, and salary attributes, and methods to
+            </a>
+          </li>
+          calculate and update salary.
+          <li>
+            <a href="#o7">
+              Write a C++ program to create a class called "Bank" with a
+              collection of accounts and methods to add and remove accounts,
+              and to deposit and withdraw money. Also define a class called
+              "Account" to maintain account details of a
+            </a>
+          </li>
+          particular customer.
+          <li>
+            <a href="#o8">
+              Write a C++ program to create a class called "TrafficLight" with
+              attributes for color and duration, and methods to change the
+              color and check for red or green.
+            </a>
+          </li>
+          <li>
+            <a href="#o9">
+              Write a C++ program to create a class called "Employee" with a
+              name, salary, and hire date attributes, and a method to
+              calculate years of service.
+            </a>
+          </li>
+          <li>
+            <a href="#o10">
+              Write a C++ program to create a class called "Student" with a
+              name, grade, and courses attributes, and methods to add and
+              remove courses.
+            </a>
+          </li>
+          <li>
+            <a href="#o11">
+              Write a C++ program to create a class called "Library" with a
+              collection of books and methods to add and remove
+            </a>
+          </li>
+          books.
+          <li>
+            <a href="#o12">
+              Write a C++ program to create a class called "Airplane" with a
+              flight number, destination, and departure time attributes, and
+              methods to check flight status and delay.
+            </a>
+          </li>
+          <li>
+            <a href="#o13">
+              Write a C++ program to create a class called "Inventory" with a
+              collection of products and methods to add and remove
+            </a>
+          </li>
+          products, and to check for low inventory.
+          <li>
+            <a href="#o14">
+              Write a C++ program to create a class called "School" with
+              attributes for students, teachers, and classes, and methods to
+              add and remove students and teachers, and to create classes.
+            </a>
+          </li>
+          <li>
+            <a href="#o15">
+              Write a C++ program to create a class called "MusicLibrary" with
+              a collection of songs and methods to add and remove songs, and
+              to play a random song.
+            </a>
+          </li>
+          <li>
+            <a href="#o16">
+              Write a C++ program to create a class called "Shape" with
+              abstract methods for calculating area and perimeter, and
+              subclasses for "Rectangle", "Circle", and "Triangle".
+            </a>
+          </li>
+          <li>
+            <a href="#o17">
+              Write a C++ program to create a class called "Movie" with
+              attributes for title, director, actors, and reviews, and methods
+              for adding and retrieving reviews.
+            </a>
+          </li>
+          <li>
+            <a href="#o18">
+              Write a C++ program to create a class called "Restaurant" with
+              attributes for menu items, prices, and ratings, and methods to
+              add and remove items, and to calculate average rating.
+            </a>
+          </li>
+          <li>
+            <a href="#o19">
+              Write a C++ program to create a class with methods to search for
+              flights and hotels, and to book and cancel
+            </a>
+          </li>
+          reservations.
+          <li>
+            <a href="#o20">
+              Create a class showing an example of default constructor.
+            </a>
+          </li>
+          <li>
+            <a href="#o21">
+              Create a class showing an example of parameterized constructor.
+            </a>
+          </li>
+          <li>
+            <a href="#o22">
+              Create a class showing an example of copy constructor.
+            </a>
+          </li>
+          <li>
+            <a href="#o23">
+              Create a class entering the rollno, name and class of the
+              student from user but rollno should be automatically generated
+              as we enter the information of 10 students
+            </a>
+          </li>
+          <li>
+            <a href="#o24">
+              Create a class showing the area of circle and rectangle by
+              method overloading.
+            </a>
+          </li>
+          <li>
+            <a href="#o25">
+              Write a C++ program to create a class called Person with private
+              instance variables name, age. and country. Provide public getter
+              and setter methods to access and modify these variables.
+            </a>
+          </li>
+          <li>
+            <a href="#o26">
+              Write a C++ program to create a class called BankAccount with
+              private instance variables accountNumber and balance. Provide
+              public getter and setter methods to access and modify these
+              variables.
+            </a>
+          </li>
+          <li>
+            <a href="#o27">
+              Write a C++ program to create a class called Rectangle with
+              private instance variables length and width. Provide public
+              getter and setter methods to access and modify these variables.
+            </a>
+          </li>
+          <li>
+            <a href="#o28">
+              Write a C++ program to create a class called Employee with
+              private instance variables employee_id, employee_name, and
+              employee_salary. Provide public getter and setter methods to
+              access and modify the id and name variables, but provide a
+              getter method for the salary variable that returns a formatted
+              string.
+            </a>
+          </li>
+          <li>
+            <a href="#o29">
+              Write a C++ program to create a class called Circle with a
+              private instance variable radius. Provide public getter and
+              setter methods to access and modify the radius variable.
+              However, provide two methods called calculateArea() and
+              calculatePerimeter() that return the calculated area and
+              perimeter based on the current radius value.
+            </a>
+          </li>
+          <li>
+            <a href="#o30">
+              Write a C++ program to create a class called Car with private
+              instance variables company_name, model_name, year, and However,
+              only provide a getter method for the mileage variable. mileage.
+              Provide public getter and setter methods to access and modify
+              the company_name, model_name, and year variables.
+            </a>
+          </li>
+          <li>
+            <a href="#o31">
+              Write a C++ program to create a class called Student with
+              private instance variables student_id, student_name, and grades.
+              Provide public getter and setter methods to access and modify
+              the student_id and student_name variables. However, provide a
+              method called addGrade() that allows adding a grade to the
+              grades variable while performing additional validation.
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="overloading">Operator overloading</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#op1">
+              Define a class Complex to represent complex numbers. Overload
+              the + operator to add two complex numbers.
+            </a>
+          </li>
+          <li>
+            <a href="#op2">
+              Create a class Fraction to represent fractions. Overload the +
+              operator to add two fractions.
+            </a>
+          </li>
+          <li>
+            <a href="#op3">
+              Define a class Matrix to represent matrices. Overload the *
+              operator to multiply two matrices.
+            </a>
+          </li>
+          <li>
+            <a href="#op4">
+              Implement a class String to represent strings. Overload the +
+              operator to concatenate two strings.
+            </a>
+          </li>
+          <li>
+            <a href="#op5">
+              Define a class Date to represent dates. Overload the < operator to compare two dates. </a>
+          </li>
+          <li>
+            <a href="#op6">
+              Implement a class Money to represent money. Overload the +
+              operator to add two amounts of money.
+            </a>
+          </li>
+          <li>
+            <a href="#op7">Create a class Rectangle to represent rectangles. Overload
+              the==operator to check if two rectangles are equal.
+            </a>
+          </li>
+          <li>
+            <a href="#op8">
+              Define a class Time to represent time.Overload the << operator to display the time in HH:MM format. </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="singlearrays">1-D arrays</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#sa1">
+              Program to copy all elements of one array into another array
+            </a>
+          </li>
+          <li>
+            <a href="#sa2">
+              Program to find the frequency of each element in the array
+            </a>
+          </li>
+          <li>
+            <a href="#sa3">
+              Program to left rotate the elements of an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa4">
+              Program to print the duplicate elements of an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa5"> Program to print the elements of an array </a>
+          </li>
+          <li>
+            <a href="#sa6">
+              Program to print the elements of an array in reverse order
+            </a>
+          </li>
+          <li>
+            <a href="#sa7">
+              Program to print the elements of an array present on even
+              position
+            </a>
+          </li>
+          <li>
+            <a href="#sa8">
+              Program to print the elements of an array present on odd
+              position
+            </a>
+          </li>
+          <li>
+            <a href="#sa9">
+              Program to print the largest element in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa10">
+              Program to print the smallest element in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa11">
+              Program to print the number of elements present in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa12">
+              Program to print the sum of all the items of the array
+            </a>
+          </li>
+          <li>
+            <a href="#sa13">
+              Program to right rotate the elements of an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa14">
+              Program to sort the elements of an array in ascending order
+            </a>
+          </li>
+          <li>
+            <a href="#sa15">
+              Program to sort the elements of an array in descending order
+            </a>
+          </li>
+          <li>
+            <a href="#sa16">
+              Program to Find 3rd Largest Number in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa17">
+              Program to Find 2nd Largest Number in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa18"> Program to Find Largest Number in an array </a>
+          </li>
+          <li>
+            <a href="#sa19">
+              C++ Program Find 2nd Smallest Number in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa20"> Program to Find Smallest Number in an array </a>
+          </li>
+          <li>
+            <a href="#sa21">
+              Program to Remove Duplicate Element in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa22">
+              Program to Print Odd and Even Numbers from an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa23">
+              Write a C++ program to swap the first and last elements of an
+              array and create a new array
+            </a>
+          </li>
+          <li>
+            <a href="#sa24">
+              Write a C++ program to count the number of even and odd elements
+              in a given array
+            </a>
+          </li>
+          <li>
+            <a href="#sa25">
+              Write a C++ program to sum values of an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa26">
+              Write a C++ program to find the index of an array element
+            </a>
+          </li>
+          <li>
+            <a href="#sa27">
+              Write a C++ program to calculate the average value of array
+              elements
+            </a>
+          </li>
+          <li>
+            <a href="#sa28">
+              Write a C++ program to test if an array contains a specific
+              value
+            </a>
+          </li>
+          <li>
+            <a href="#sa29">
+              Write a C++ program to find the maximum and minimum value of an
+              array
+            </a>
+          </li>
+          <li>
+            <a href="#sa30">
+              Write a C++ program to insert an element (specific position)
+              into an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa31">
+              Write a C++ program to reverse an array of integer values
+            </a>
+          </li>
+          <li>
+            <a href="#sa32">
+              Write a C++ program to find the common elements between two
+              arrays
+            </a>
+          </li>
+          <li>
+            <a href="#sa33">
+              Write a C++ program to find the duplicate values of an array of
+              integer values
+            </a>
+          </li>
+          <li>
+            <a href="#sa34">
+              Write a C++ program to find second largest number from the array
+            </a>
+          </li>
+          <li>
+            <a href="#sa35">
+              Write a C++ program to find second lowest number from the array
+            </a>
+          </li>
+          <li>
+            <a href="#sa36">
+              Write a C++ program to find the number of even and odd integers
+              in a given array of integers
+            </a>
+          </li>
+          <li>
+            <a href="#sa37">
+              Write a C++ program to get the difference between the largest
+              and smallest values in an array of integers
+            </a>
+          </li>
+          <li>
+            <a href="#sa38">
+              Write a C++ program to segregate all 0s on left side and all 1s
+              on right side of a given array of 0s and 1s
+            </a>
+          </li>
+          <li>
+            <a href="#sa39">
+              Write a C++ program to cyclically rotate a given array clockwise
+              by one
+            </a>
+          </li>
+          <li>
+            <a href="#sa40">
+              Write a C++ program to print all unique element in an array
+            </a>
+          </li>
+          <li>
+            <a href="#sa41">
+              Write a C++ Program to Sort the Array in an Ascending Order
+            </a>
+          </li>
+          <li>
+            <a href="#sa42">
+              Write a C++ Program to Sort the Array in an Descending Order
+            </a>
+          </li>
+          <li>
+            <a href="#sa43">
+              Write a C++ Program to Search Key Elements in an Array
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="doublearrays">2-D Arrays</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#da1">
+              Enter the Matrix of rows and columns entered by the user and
+              print in matrix format
+            </a>
+          </li>
+          <li>
+            <a href="#da2"> Program to Add Two Matrices </a>
+          </li>
+          <li>
+            <a href="#da"> Program to Multiply Two Matrices </a>
+          </li>
+          <li>
+            <a href="#da3"> Program to subtract the two matrices </a>
+          </li>
+          <li>
+            <a href="#da5">
+              Program to determine whether two matrices are equal
+            </a>
+          </li>
+          <li>
+            <a href="#da6">
+              Program to display the lower triangular matrix
+            </a>
+          </li>
+          <li>
+            <a href="#da7">
+              Program to display the upper triangular matrix
+            </a>
+          </li>
+          <li>
+            <a href="#da8">
+              Program to find the frequency of odd & even numbers in the given
+              matrix
+            </a>
+          </li>
+          <li>
+            <a href="#da9">
+              Program to find the sum of each row and each column of a matrix
+            </a>
+          </li>
+          <li>
+            <a href="#da10">
+              Program to determine whether a given matrix is an identity
+              matrix
+            </a>
+          </li>
+          <li>
+            <a href="#da11"> Program to Transpose matrix </a>
+          </li>
+          <li>
+            <a href="#da12">
+              Program to determine whether a given matrix is a sparse matrix
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="inheritance">Inheritance</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#i1">
+              Write a C++ program to create a class called Animal with a
+              method called makeSound(). Create a derived class called Cat
+              that overrides the makeSound() method to bark.
+            </a>
+          </li>
+          <li>
+            <a href="#i2">
+              Write a C++ program to create a class called Vehicle with a
+              method called drive(). Create a derived class called Car that
+              overrides the drive() method to print "Repairing a car".
+            </a>
+          </li>
+          <li>
+            <a href="#i3">
+              Write a C++ program to create a class called Shape with a method
+              called getArea(). Create a derived class called Rectangle that
+              overrides the getArea() method to calculate the area of a
+              rectangle.
+            </a>
+          </li>
+          <li>
+            <a href="#i4">
+              Write a C++ program to create a class called Employee with
+              methods called work() and getSalary(). Create a derived class
+              called HRManager that overrides the work() method and adds a new
+              method called addEmployee().
+            </a>
+          </li>
+          <li>
+            <a href="#i5">
+              Write a C++ program to create a class known as "BankAccount"
+              with methods called deposit() and withdraw(). Create a derived
+              class called SavingsAccount that overrides the withdraw() method
+              to prevent withdrawals if the account balance falls below one
+              hundred.
+            </a>
+          </li>
+          <li>
+            <a href="#i6">
+              Write a C++ program to create a class called Animal with a
+              method named move(). Create a derived class called Cheetah that
+              overrides the move() method to run.
+            </a>
+          </li>
+          <li>
+            <a href="#i7">
+              Write a C++ program to create a class known as Person with
+              methods called getFirstName() and getLastName(). Create a
+              derived class called Employee that adds a new method named
+              getEmployeeId() and overrides the getLastName() method to
+              include the employee's job title
+            </a>
+          </li>
+          <li>
+            <a href="#i8">
+              Write a C++ program to create a class called Shape with methods
+              called getPerimeter() and getArea(). Create a derived class
+              called Circle that overrides the getPerimeter() and getArea()
+              methods to calculate the area and perimeter of a circle.
+            </a>
+          </li>
+          <li>
+            <a href="#i9">
+              Write a C++ program to create a vehicle class hierarchy. The
+              base class should be Vehicle, with derived classes Truck, Car
+              and Motorcycle. Each derived class should have properties such
+              as make, model, year, and fuel type. Implement methods for
+              calculating fuel efficiency, distance traveled, and maximum
+              speed.
+            </a>
+          </li>
+          <li>
+            <a href="#i10">
+              Write a C++ program that creates a class hierarchy for employees
+              of a company. The base class should be Employee, with derived
+              classes Manager, Developer, and Programmer. Each derived class
+              should have properties such as name, address, salary, and job
+              title. Implement methods for calculating bonuses, generating
+              performance reports, and managing projects.
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="file-handle">File Handling</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#fh1">
+              Write a C++ program to create a new text file and write some
+              text into it.
+            </a>
+          </li>
+          <li>
+            <a href="#fh2">
+              Write a C++ program to open an existingtext file and display its
+              contents on the console.
+            </a>
+          </li>
+          <li>
+            <a href="#fh3">
+              Write a C++ program to countthe number of lines in a text file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh4">
+              Write a C++ program to count the number of words in a text file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh5">
+              Write a C++ program to copy the contents of one text file to
+              another.
+            </a>
+          </li>
+          <li>
+            <a href="#fh6">
+              Write a C++ program to find and replace a specific word in a
+              text file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh7">
+              Write a C++ program to append new data to an existing text file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh8">
+              Write a C++ program to sort the lines of a text file in
+              alphabetical order.
+            </a>
+          </li>
+          <li>
+            <a href="#fh9">
+              Write a C++ program to merge multiple text files into a single
+              file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh10">
+              Write a C++ program to splita large text file into smaller files
+              of equal size.
+            </a>
+          </li>
+          <li>
+            <a href="#fh11">
+              Write a C++ program to search for a specific string in a text
+              file and display its line number(s).
+            </a>
+          </li>
+          <li>
+            <a href="#fh12">
+              Write a C++ program to encrypt the contents of a text file using
+              a simple encryption algorithm.
+            </a>
+          </li>
+          <li>
+            <a href="#fh13">
+              Write a C++ program to decrypt the contents of a text file
+              encrypted using the above algorithm.
+            </a>
+          </li>
+          <li>
+            <a href="#fh14">
+              Write a C++ program to read a CSV file and display its contents
+              in tabular form.
+            </a>
+          </li>
+          <li>
+            <a href="#fh15">
+              Write a C++ program to calculate the average of numbers stored
+              in a file.
+            </a>
+          </li>
+          <li>
+            <a href="#fh16">
+              Write a C++ program to store the information of 10 Students
+              having roll no,name,marks,mobile no properties, get() and set()
+              member functions as binary file with following options 1. Insert
+              Record 2. Delete Record 3. Update Record (based on roll no) 4.
+              Search Record (based on roll no) 5. Clone the file 6. Exit.
+            </a>
+          </li>
+        </ol>
+      </div>
+      <h3 id="virtual-functions">Virtual Functions</h3>
+      <div class="ques">
+        <ol>
+          <li>
+            <a href="#vf1">
+              Write a C++ program to create an abstract class Animal with an
+              abstract method called sound(). Create derived classes Lion and
+              Tiger that extend the Animal class and implement the sound()
+              method to make a specific sound for each animal.
+            </a>
+          </li>
+          <li>
+            <a href="#vf2">
+              Write a C++ program to create an abstract class Animal with an
+              abstract method called sound(). Create derived classes Lion and
+              Tiger that extend the Animal class and implement the sound()
+              method to make a specific sound for each animal.
+            </a>
+          </li>
+          <li>
+            <a href="#vf3">
+              Write a C++ program to create an abstract class Shape with
+              abstract methods calculateArea() and calculatePerimeter().
+              Create derived classes Circle and Triangle that extend the Shape
+              class and implement the respective methods to calculate the area
+              and perimeter of each shape.
+            </a>
+          </li>
+          <li>
+            <a href="#vf4">
+              Write a C++ program to create an abstract class BankAccount with
+              abstract methods deposit() and withdraw(). Create derived
+              classes: SavingsAccount and CurrentAccount that extend the
+              BankAccount class and implement the respective methods to handle
+              deposits and withdrawals for each account type.
+            </a>
+          </li>
+          <li>
+            <a href="#vf5">
+              Write a C++ program to create an abstract class Animal with
+              abstract methods eat() and sleep(). Create derived classes Lion,
+              Tiger, and Deer that extend the Animal class and implement the
+              eat() and sleep() methods differently based on their specific
+              behavior.
+            </a>
+          </li>
+          <li>
+            <a href="#vf6">
+              Write a C++ program to create an abstract class Employee with
+              abstract methods calculateSalary() and displayInfo(). Create
+              derived classes Manager and Programmer that extend the Employee
+              class and implement the respective methods to calculate salary
+              and display information for each role.
+            </a>
+          </li>
+          <li>
+            <a href="#vf7">
+              Write a C++ program to create an abstract class Shape3D with
+              abstract methods calculateVolume() and calculateSurfaceArea().
+              Create derived classes Sphere and Cube that extend the Shape3D
+              class and implement the respective methods to calculate the
+              volume and surface area of each shape
+            </a>
+          </li>
+          <li>
+            <a href="#vf8">
+              Write a C++ program to create an abstract class Vehicle with
+              abstract methods startEngine() and stopEngine(). Create derived
+              classes Car and Motorcycle that extend the Vehicle class and
+              implement the respective methods to start and stop the engines
+              for each vehicle type.
+            </a>
+          </li>
+          <li>
+            <a href="#vf9">
+              Write a C++ program to create an abstract class Person with
+              abstract methods eat() and exercise(). Create derived classes
+              Athlete and LazyPerson that extend the Person class and
+              implement the respective methods to describe how each person
+              eats and exercises.
+            </a>
+          </li>
+          <li>
+            <a href="#vf10">
+              Write a C++ program to create an abstract class Instrument with
+              abstract methods play() and tune(). Create derived classes for
+              Glockenspiel and Violin that extend the Instrument class and
+              implement the respective methods to play and tune each
+              instrument.
+            </a>
+          </li>
+          <li>
+            <a href="#vf11">
+              Write a C++ program to create an abstract class Shape2D with
+              abstract methods draw() and resize(). Create derived classes
+              Rectangle and Circle that extend the Shape2D class and implement
+              the respective methods to draw and resize each shape.
+            </a>
+          </li>
+          <li>
+            <a href="#vf12">
+              Write a C++ program to create an abstract class GeometricShape
+              with abstract methods area() and perimeter(). Create derived
+              classes Triangle and Square that extend the GeometricShape class
+              and implement the respective methods to calculate the area and
+              perimeter of each shape
+            </a>
+          </li>
+          <li>
+            <a href="#vf13">
+              Write a C++ program to create an abstract class Bird with
+              abstract methods fly() and makeSound(). Create derived classes
+              Eagle and Hawk that extend the Bird class and implement the
+              respective methods to describe how each bird flies and makes a
+              sound.
+            </a>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="programs">
+      <div class="code">
+
+        <div class="left">
+          <h2>Program</h2>
+          <div id="b1">
+            <iframe src="../programs/ex1.cpp" frameborder="0"></iframe>
+          </div>
+        </div>
+        <div class="right">
+          <h2>Outputs</h2>
+          <pre>
+            hello world
+          </pre>
+        </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b2">
+          <iframe src="../programs/EX2.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter two numbers:-
+              45
+              34
+              sum of number 45 and 34 is 79 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b3">
+          <iframe src="../programs/EX3.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter two numbers :-
+56
+78
+product of 56 and 78 is 4368
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b4"><iframe src="../programs/EX4.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter two numbers :-
+          77
+          34
+          sum of 77 and 34 is 111
+          product of 77 and 34 is 2618
+          subtraction of 77 and 34 is 43
+          division of 77 and 34 is 2.26471
+          remainder of 77 and 34 is 9 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b5">
+          <iframe src="../programs/EX5.CPP"></iframe>
+      </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter five numbers whose average you want to calculate:-
+78
+56
+45
+34
+23
+average of five numbers is:- 47.2
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b6">
+          <iframe src="../programs/EX6.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter the value of variable a =
+          45
+          enter the value of variable b =
+          34
+          value of variable a and b before swaping is :- 45 34 respectively 
+          value of a and b after swaping is 34 45 respectively
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b7">
+          <iframe src="../programs/ex7.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter a decimal number:- 
+              9
+              binary form of entered number is :-
+              1001 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b8">
+          <iframe src="../programs/ex8.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a binary number: 1000
+              Decimal equivalent: 8 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b9">
+          <iframe src="../programs/ex9.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          C++ compiler check
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b10">
+          <iframe src="../programs/ex10.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 90345
+              Sum of the digits of 90345 is: 21 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b11">
+          <iframe src="../programs/EX11.CPP"> </iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter two numbers :-
+              34
+              23
+              A is greater than B
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b12">
+          <iframe src="../programs/ex12.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: shruti@jaiswal 123
+              Letters: 13
+              Spaces: 1
+              Numbers: 3
+              Other Characters: 1
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b13">
+          <iframe src="../programs/EX13.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter any letter whose ASCII value you want to know:-
+h
+ASCII value of letter is:- 104
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b14">
+          <iframe src="../programs/ex14.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer (n): 5
+              n + nn + nnn = 615 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b15">
+          <iframe src="../programs/ex15.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>Current system time: 16:20:31
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b16">
+          <iframe src="../programs/EX16.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          1 3 5 7 9 11 13 15 17 19 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b17">
+          <iframe src="../programs/EX17.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          2 4 6 8 10 12 14 16 18  
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b18">
+          <iframe src="../programs/ex18.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string representing an integer: 90
+              The integer value is: 90
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b19">
+          <iframe src="../programs/EX19.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter time in seconds :-
+              120
+              120 in minutes = 2 and in hours = 0.0333333 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b20">
+          <iframe src="../programs/ex20.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string representing an integer: 678
+              The integer value is: 678 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b21">
+          <iframe src="../programs/ex21.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 16
+              Square root of 16 is: 4 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b22">
+          <iframe src="../programs/ex22.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a positive number: 23432
+23432 is a palindrome.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b23">
+          <iframe src="../programs/ex23.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter two numbers to add: 35
+              45
+              Sum: 80
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b24">
+          <iframe src="../programs/ex24.cpp"></iframe>
+        </div>
+      </div>
+      <div class="righ">
+        <pre>
+          Enter a positive integer: 345
+              Sum of the digits of 345 is: 12
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b25">
+          <iframe src="../programs/ex25.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the radius of the circle: 5
+              The area of the circle with radius 5 is: 78.5397  
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b26">
+          <iframe src="../programs/ex26.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the rectangle: 8
+Enter the width of the rectangle: 4
+The area of the rectangle with length 8 and width 4 is: 32
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b27">
+          <iframe src="../programs/ex27.cpp"> </iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the base of the triangle: 5
+Enter the height of the triangle: 3
+The area of the triangle with base 5 and height 3 is: 7.5
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b28">
+          <iframe src="../programs/ex28.cpp"> </iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the side length of the equilateral triangle: 8
+The area of the equilateral triangle with side length 8 is: 27.7128
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b29">
+          <iframe src="../programs/ex29.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the first diagonal: 6
+Enter the length of the second diagonal: 4
+The area of the rhombus with diagonals 6 and 4 is: 12
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b30">
+          <iframe src="../programs/ex30.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the base of the parallelogram: 5
+Enter the height of the parallelogram: 4
+The area of the parallelogram with base 5 and height 4 is: 20
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b31">
+          <iframe src="../programs/ex31.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the rectangular prism: 9
+Enter the width of the rectangular prism: 5
+Enter the height of the rectangular prism: 3
+The surface area of the rectangular prism is: 174
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b32">
+          <iframe src="../programs/ex32.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the radius of the sphere: 89
+The volume of the sphere with radius 89 is: 2.95297e+06
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b33">
+          <iframe src="../programs/ex33.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>Enter the radius of the cylinder: 7
+          Enter the height of the cylinder: 7
+          The volume of the cylinder with radius 7 and height 7 is: 1077.57
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b34">
+          <iframe src="../programs/ex34.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the cuboid: 89
+Enter the width of the cuboid: 78
+Enter the height of the cuboid: 90
+The volume of the cuboid with length 89, width 78, and height 90 is: 624780
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b35">
+          <iframe src="../programs/ex35.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the radius of the cone: 76
+Enter the height of the cone: 78
+The volume of the cone with radius 76 and height 78 is: 471792
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b36">
+          <iframe src="../programs/ex36.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the cuboid: 90
+Enter the width of the cuboid: 45
+Enter the height of the cuboid: 32
+The surface area of the cuboid with length 90, width 45, and height 32 is: 16740
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b37">
+          <iframe src="../programs/ex37.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the radius of the cylinder: 9
+Enter the height of the cylinder: 9
+The surface area of the cylinder with radius 9 and height 9 is: 1017.88
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b38">
+          <iframe src="../programs/ex38.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the edge of the cube: 9
+The surface area of the cube with edge length 9 is: 486
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b39">
+          <iframe src="../programs/ex39.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of marks: 4
+Enter 4 marks:
+Mark 1: 56
+Mark 2: 45
+Mark 3: 34
+Mark 4: 23
+The average marks is: 39.5
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b40">
+          <iframe src="../programs/ex40.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a character: u
+u is a vowel.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b41">
+          <iframe src="../programs/ex41.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of elements: 9
+Enter number 1: 1
+Enter number 2: 2
+Enter number 3: 3
+Enter number 4: 4
+Enter number 5: 5
+Enter number 6: 7
+Enter number 7: 8
+Enter number 8: 9
+Enter number 9: 6
+Sum of the 9 numbers is: 45
+
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b42">
+          <iframe src="../programs/ex42.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+      <pre>
+        Enter a non-negative integer: 5
+        Factorial of 5 is: 120
+      </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b43">
+          <iframe src="../programs/ex43.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of units consumed: 778
+Total electricity bill: $1163.8
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b44">
+          <iframe src="../programs/ex44.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter your CGPA: 78
+Percentage: 741%
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b45">
+          <iframe src="../programs/ex45.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of courses: 4
+Enter credit hours for course 1: 5
+Enter grade for course 1 (A/B/C/D/F): b
+Enter credit hours for course 2: 4
+Enter grade for course 2 (A/B/C/D/F): c
+Enter credit hours for course 3: 6
+Enter grade for course 3 (A/B/C/D/F): a
+Enter credit hours for course 4: 1
+Enter grade for course 4 (A/B/C/D/F): a
+CGPA: 3.1875
+Percentage: 30.2812%
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b46">
+          <iframe src="../programs/ex46.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter total runs scored: 900
+Enter number of innings played: 9
+Batting average: 100
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b47">
+          <iframe src="../programs/ex47.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter commission earned: 45
+Enter total sales amount: 300
+Commission percentage: 15%
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b48">
+          <iframe src="../programs/ex48.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter coordinates of the first point (x1 y1): 6,7
+Enter coordinates of the second point (x2 y2): 2,3
+Distance between (6, 7) and (2, 3) is: 5.65685
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b49">
+          <iframe src="../programs/ex49.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter base: 7
+Enter exponent: 56
+7 raised to the power of 56 is: 2.11588e+47
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b50">
+          <iframe src="../programs/ex50.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three numbers: 23
+45
+56
+The greatest number among 23, 45, and 56 is: 56
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b51">
+          <iframe src="../programs/ex51.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Number of days in month 6 of year 2003 is: 30
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b52">
+          <iframe src="../programs/ex52.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 6
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b53">
+          <iframe src="../programs/ex53.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the day number (1-7): 6
+The day corresponding to the number 6 is: Friday
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b54">
+          <iframe src="../programs/ex54.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a year: 2005
+2005 is not a leap year.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b55">
+          <iframe src="../programs/ex55.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter five numbers: 34
+34
+34
+23
+23
+Sum of the numbers is: 148
+Average of the numbers is: 29.6
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b56">
+          <iframe src="../programs/ex56.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          1 2 3 4 5 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b57">
+          <iframe src="../programs/ex57.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a character: f
+f is a consonant.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b58">
+          <iframe src="../programs/ex58.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 5
+Cube of numbers from 1 to 5:
+Cube of 1 is: 1
+Cube of 2 is: 8
+Cube of 3 is: 27
+Cube of 4 is: 64
+Cube of 5 is: 125
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b59">
+          <iframe src="../programs/ex59.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the value of n: 8
+First 8 odd natural numbers:
+1 3 5 7 9 11 13 15 
+Sum of the first 0 odd natural numbers is: 64
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b60">
+          <iframe src="../programs/ex60.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 90
+Multiplication table of 90:
+90 * 1 = 90
+90 * 2 = 180
+90 * 3 = 270
+90 * 4 = 360
+90 * 5 = 450
+90 * 6 = 540
+90 * 7 = 630
+90 * 8 = 720
+90 * 9 = 810
+90 * 10 = 900
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b61">
+          <iframe src="../programs/ex61.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 8
+The number is positive.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b62">
+          <iframe src="../programs/ex62.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a positive integer: 789
+Number of digits in 789: 3
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b63">
+          <iframe src="../programs/ex63.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three numbers: 56
+45
+78
+Not all numbers are equal.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b64">
+          <iframe src="../programs/ex64.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three numbers: 34
+90
+56
+Numbers are not in increasing or decreasing order.
+        </pre>
+      </div>
+      </div>
+      <div class=code>
+        <div class="left">
+        <div id="b65">
+          <iframe src="../programs/ex65.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the student's score: 90
+Student's grade: A
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b66">
+          <iframe src="../programs/ex66.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 4
+Enter two numbers: 34
+78
+Result: 0.435897
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 1
+Enter two numbers: 23
+45
+Result: 68
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 2
+Enter two numbers: 
+78
+0
+Result: 78
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 3
+Enter two numbers: 8
+4
+Result: 32
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 5
+Enter base and exponent: 90
+70
+Result: 6.26579e+136
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 6
+Enter total and percentage: 98
+87
+Result: 85.26
+Choose an operation:
+1. Addition
+2. Subtraction
+3. Multiplication
+4. Division
+5. Exponential
+6. Percentage
+7. Exit
+Enter your choice (1-7): 7
+Exiting...
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b67">
+          <iframe src="../programs/ex67.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the first string: red
+Enter the second string: flag
+Concatenated string: redflag
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b68">
+          <iframe src="../programs/ex68.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: WHY
+String in lowercase: why
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b69">
+          <iframe src="../programs/ex69.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: dear
+String in uppercase: DEAR
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b70">
+          <iframe src="../programs/ex70.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: hello shruti jaiswal 
+Trimmed string: "hello shruti jaiswal"
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b71">
+          <iframe src="../programs/ex71.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: not a string 
+Enter the start position: 3
+Enter the end position: 5
+Substring between positions 3 and 5:  a 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b72">
+          <iframe src="../programs/ex72.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: day full of stress
+String with 'd' replaced by 'f': fay full of stress
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b73">
+          <iframe src="../programs/ex73.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: hello
+Length of the string: 5
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b74">
+          <iframe src="../programs/ex74.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Current Date and Time: 2024-04-04 03:54:37
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b75">
+          <iframe src="../programs/ex75.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: hey its me
+Enter the index: 4
+Character at index 4: i
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b76">
+          <iframe src="../programs/ex76.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: not again
+Enter the character to remove: n
+String after removing 'n': ot agai
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b77">
+          <iframe src="../programs/ex77.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a string: how many times will you ask the same thing 
+Reversed string:  gniht emas eht ksa uoy lliw semit ynam woh
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b78">
+          <iframe src="../programs/ex78.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an HTML string: <html><head><title>strings</title></head></html>
+String without HTML tags: strings
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b79">
+          <iframe src="../programs/ex79.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+Enter a string (press Enter twice to finish input):
+hey its me preparing my c++ projrect 
+this is a website which is taking to much time to be prepared
+and now its been too long that i am doing this work 
+damn!!
+damn!!
+
+Total number of lines: 5
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b80">
+          <iframe src="../programs/ex80.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of subjects: 3
+Enter marks for subject 1: 90
+Enter marks for subject 2: 95
+Enter marks for subject 3: 98
+Total Marks: 283
+Percentage: 94.3333%
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b81">
+          <iframe src="../programs/ex81.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          1 2 3 4 5 6 7 8 9 10 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b82">
+          <iframe src="../programs/ex82.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Sum of the first 10 natural numbers: 55
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b83">
+          <iframe src="../programs/ex83.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 5
+Multiplication table of 5:
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b84">
+          <iframe src="../programs/ex84.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 5
+Factorial of 5 is: 120
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b85">
+          <iframe src="../programs/ex85.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 89
+Number with digits reversed: 98
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b86">
+          <iframe src="../programs/ex86.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of integers: 9
+Enter 9 integers: 5
+6
+3
+4
+5
+2
+4
+65
+4
+Sum of even integers: 20
+Sum of odd integers: 78
+        </pre>
+      </div>
+      </div>
+      <div class=" code">
+      <div class="left">
+        <div id="b87">
+          <iframe src="../programs/ex87.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 5
+5 is a prime number.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b88">
+          <iframe src="../programs/ex88.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter first number: 78
+Enter second number: 45
+HCF of 78 and 45 is: 3
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b89">
+          <iframe src="../programs/ex89.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 90
+Do you want to enter another number? (y/n): y
+Enter a number: 67
+Do you want to enter another number? (y/n): y
+Enter a number: 8
+Do you want to enter another number? (y/n): n
+Count of positive numbers: 3
+Count of negative numbers: 0
+Count of zero numbers: 0
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b90">
+          <iframe src="../programs/ex90.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 4
+Do you want to enter another number? (y/n): y
+Enter a number: 6
+Do you want to enter another number? (y/n): y
+Enter a number: 65
+Do you want to enter another number? (y/n): n
+Largest number entered: 6
+Smallest number entered: 4
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b91">
+          <iframe src="../programs/ex91.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Armstrong numbers between 1 and 600:
+1 2 3 4 5 6 7 8 9 153 370 371 407
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b92">
+          <iframe src="../programs/ex92.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the amount: 8000
+Total number of notes: 4
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b93">
+          <iframe src="../programs/ex93.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the number of terms for Fibonacci series: 9
+Fibonacci Series up to 9 terms:
+0 1 1 2 3 5 8 13 21
+        </pre>
+        </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b94">
+          <iframe src="../programs/ex94.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the value of n: 9
+Sum of the series: 285
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b95">
+          <iframe src="../programs/ex95.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three numbers: 8
+5
+4
+Average of 8, 5, and 4 is: 5.66667
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b96">
+          <iframe src="../programs/ex96.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three numbers: 889
+778
+990
+The smallest number among 889, 778, and 990 is: 778
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b97">
+          <iframe src="../programs/ex97.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a year: 2000
+2000 is a leap year.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b98">
+          <iframe src="../programs/ex98.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a float value: 9.89765
+Rounded value: 10
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b99">
+          <iframe src="../programs/ex99.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer: 1650
+Sum of the digits in 1650 is: 12
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b100">
+          <iframe src="../programs/ex100.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the lengths of the sides of the triangle: 9
+8
+7
+Area of the triangle: 26.8328
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b101">
+          <iframe src="../programs/ex101.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the length of the side of the pentagon: 9
+Area of the pentagon: 139.359
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b102">
+          <iframe src="../programs/ex102.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 5
+5 is not an even number.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b103">
+          <iframe src="../programs/ex103.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a number: 7777
+7777 is a palindrome number.
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b104">
+          <iframe src="../programs/ex104.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Prime numbers between 1 to 20:
+2 3 5 7 11 13 17 19 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b105">
+          <iframe src="../programs/ex105.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter two numbers: 89
+90
+GCD of 89 and 90 is: 1
+LCM of 89 and 90 is: 8010
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b106">
+          <iframe src="../programs/ex106.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a non-negative integer: 5
+Factorial of 5 is: 120
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b107">
+          <iframe src="../programs/ex107.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter an integer number: 1234
+Reversed number: 4321
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b108">
+          <iframe src="../programs/ex108.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a float number: 87.6789
+Enter the number of decimals to round to: 3
+Rounded number: 87.679
+          </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b109">
+          <iframe src="../programs/ex109.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a double number: 897.876543
+897.877 is not an integer.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b110">
+          <iframe src="../programs/ex110.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the dividend: 9
+          Enter the divisor: 78
+          Result of rounded up integer division: 1 
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b111">
+          <iframe src="../programs/ex111.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a Roman numeral: VII
+Equivalent integer value: 7
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b112">
+          <iframe src="../programs/ex112.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter a float value: 89.899
+Absolute value of 89.899 is: 89.899
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="b113">
+          <iframe src="../programs/ex113.cpp"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter number of commands you want to enter :-
+4
+enter arguments number 0 :- 
+height
+enter arguments number 1 :- 
+weight
+enter arguments number 2 :- 
+length
+enter arguments number 3 :- 
+breadth
+number of arguments entered by user = 4
+argument 0 is :- height
+
+argument 1 is :- weight
+
+argument 2 is :- length
+
+argument 3 is :- breadth
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o1">
+          <iframe src="../programs/OOPEX1.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          name of the person is :- rahul
+          age of the person is:- 24
+          name of the person is :- angali
+          age of the person is:- 21
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="02">
+          <iframe src="../programs/oOPEX2.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Initial values:
+Dog 1 - Name: Buddy, Breed: Labrador Retriever
+Dog 2 - Name: Max, Breed: German Shepherd
+
+Updated values:
+Dog 1 - Name: Charlie, Breed: Labrador Retriever
+Dog 2 - Name: Max, Breed: Golden Retriever
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="03">
+          <iframe src="../programs/OOPEX3.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter the length of the rectangle :- 
+89
+enter the breadth of the rectangle :- 
+56
+area of the rectangle is :- 4984
+perimeter of the reactangle is :- 290
+enter the length of the rectangle :- 
+89
+enter the breadth of the rectangle :- 
+76
+area of the rectangle is :- 6764
+perimeter of the reactangle is :- 330
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o4">
+          <iframe src="../programs/OOPEX4.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          enter the radius of the circle :-9
+area of the circle = 254.469
+perimeter of the circle = 56.5487
+
+enter the radius of the circle :-3
+area of the circle = 28.2743
+perimeter of the circle = 18.8496
+
+enter the radius of the circle :-10
+area of the circle = 314.159
+perimeter of the circle = 62.8318
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o5">
+          <iframe src="../programs/OOPEX5.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Book added to collection.
+Book added to collection.
+Book added to collection.
+Book removed from collection.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o6">
+          <iframe src="../programs/OOPEX6.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Employee Details:
+Name: John Doe
+Job Title: Software Engineer
+Monthly Salary: $5000
+Annual Salary: $60000
+Salary updated successfully.
+
+Updated Employee Details:
+Name: John Doe
+Job Title: Software Engineer
+Monthly Salary: $5500
+Annual Salary: $66000
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o7">
+          <iframe src="../programs/OOPEX7.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Account added.
+Account added.
+Deposit of $500 successful.
+Withdrawal of $1000 successful
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o8">
+          <iframe src="../programs/OOPEX8.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Current color: red
+          Current color: green
+          Current color: red
+          Current color: green
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o9">
+          <iframe src="../programs/OOPEX9.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Employee Details:
+          Name: John Doe
+          Salary: $5000
+          Years of Service: 0
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o10">
+          <iframe src="../programs/OOPEX10.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <Pre>
+          Course added.
+          Course added.
+          Course added.
+          Course removed.
+          Student Details:
+          Name: John Doe
+          Grade: 10
+          Courses: Math, History, 
+        </Pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o11">
+          <iframe src="../programs/OOPEX11.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Book added to library.
+          Book added to library.
+          Book removed from library.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o12">
+          <iframe src="../programs/OOPEX12.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Flight Details:
+          Flight Number: ABC123
+          Destination: New York
+          Departure Time: Sun Apr  7 07:20:57 2024
+          Flight Status: On time
+          Flight delayed.
+          Updated Flight Status: Delayed
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o13">
+          <iframe src="../programs/OOPEX13.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Product added to inventory.
+          Product added to inventory.
+          Product1 is not low in inventory.
+          Product removed from inventory.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o14">
+          <iframe src="../programs/oOPEX14.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Student added to school.
+          Student added to school.
+          Teacher added to school.
+          Teacher added to school.
+          Student removed from school.
+          Teacher removed from school.
+          Class created.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o15">
+          <iframe src="../programs/OOPEX15.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Song added to music library.
+          Song added to music library.
+          Song added to music library.
+          Song removed from music library.
+          Now playing: Hotel California by Eagles
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o16">
+          <iframe src="../programs/OOPEX16.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Rectangle:
+          Area: 20
+          Perimeter: 18
+          
+          Circle:
+          Area: 28.2743
+          Perimeter: 18.8496
+          
+          Triangle:
+          Area: 6
+          Perimeter: 12
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o17">
+          <iframe src="../programs/OOPEX17.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Review added for movie 'Toy Story'.
+          Review added for movie 'Toy Story'.
+          Reviews for movie 'Toy Story':
+          - Great movie for kids!
+          - I laughed so hard during this movie.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o18">
+          <iframe src="../programs/OOPEX18.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Item added to the menu.
+          Item added to the menu.
+          Item added to the menu.
+          Item removed from the menu.
+          Average rating of the restaurant: 4.5
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o19">
+          <iframe src="../programs/OOPEX19.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Searching for flights to New York on 2024-04-15...
+          Flight 'Flight123' booked successfully.
+          Searching for hotels in London on 2024-05-20...
+          Hotel 'Hotel456' booked successfully.
+          Flight reservation for 'Flight123' canceled.
+          Hotel reservation for 'Hotel456' canceled.
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o20">
+          <iframe src="../programs/OOPEX20.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Default constructor called.
+          Data: 0, 0, Default
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o21">
+          <iframe src="../programs/OOPEX21.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Parameterized constructor called.
+          Data: 10, 3.14, Hello
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+        <div id="o22">
+          <iframe src="../programs/OOPEX22.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Parameterized constructor called.
+          Copy constructor called.
+          Object 1:
+          Data: 10, 3.14, Hello
+          
+          Object 2:
+          Data: 10, 3.14, Hello
+        </pre>
+      </div>
+      </div>
+      <div class="code">
+      <div class="left">
+      <div id="o23">
+        <iframe src="../programs/OOPEX23.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter name of student 1: sanju 
+        Enter class of student 1: 12
+        Enter name of student 2: shruti 
+        Enter class of student 2: bca 1st
+        Enter name of student 3: gunjan 
+        Enter class of student 3: 10
+        Enter name of student 4: sunita
+        Enter class of student 4: 8
+        Enter name of student 5: dinesh 
+        Enter class of student 5: 7
+        Enter name of student 6: shalini 
+        Enter class of student 6: bca 2
+        Enter name of student 7: deepak 
+        Enter class of student 7: bca3
+        Enter name of student 8: shreya 
+        Enter class of student 8: 12
+        Enter name of student 9: pnky
+        Enter class of student 9: 8
+        Enter name of student 10: aaru 
+        Enter class of student 10: 9
+        
+        Student 1 Information:
+        Roll Number: 11
+        Name: sanju 
+        Class: 12
+        
+        Student 2 Information:
+        Roll Number: 12
+        Name: shruti 
+        Class: bca 1st
+        
+        Student 3 Information:
+        Roll Number: 13
+        Name: gunjan 
+        Class: 10
+        
+        Student 4 Information:
+        Roll Number: 14
+        Name: sunita
+        Class: 8
+        
+        Student 5 Information:
+        Roll Number: 15
+        Name: dinesh 
+        Class: 7
+        
+        Student 6 Information:
+        Roll Number: 16
+        Name: shalini 
+        Class: bca 2
+        
+        Student 7 Information:
+        Roll Number: 17
+        Name: deepak 
+        Class: bca3
+        
+        Student 8 Information:
+        Roll Number: 18
+        Name: shreya 
+        Class: 12
+        
+        Student 9 Information:
+        Roll Number: 19
+        Name: pnky
+        Class: 8
+        
+        Student 10 Information:
+        Roll Number: 20
+        Name: aaru 
+        Class: 9        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o24">
+        <iframe src="../programs/OOPEX24.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Area of circle with radius 5 is: 78.5
+        Area of rectangle with length 4 and width 6 is: 24
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o25">
+        <iframe src="../programs/OOPEX25.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Name: John
+        Age: 30
+        Country: USA
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o26">
+        <iframe src="../programs/OOPEX26.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Account Number: 123456789
+        Balance: 1000
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o27">
+        <iframe src="../programs/OOPEX27.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Length: 5
+        Width: 3        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o28">
+        <iframe src="../programs/OOPEX28.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Employee ID: 1001
+        Employee Name: John Doe
+        Employee Salary: $50000.00
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o29">
+        <iframe src="../programs/OOPEX29.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Radius of the circle: 5
+        Area of the circle: 78.5
+        Perimeter of the circle: 31.4
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o30">
+        <iframe src="../programs/OOPEX30.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Company Name: Toyota
+        Model Name: Camry
+        Year: 2020
+        Mileage: 6.92142e-310
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="o31">
+        <iframe src="../programs/OOPEX31.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Student ID: 1001
+        Student Name: John Doe
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f1">
+        <iframe src="../programs/FUNC1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        50 is greatest among all three
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f2">
+        <iframe src="../programs/FUNC2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        enter the three numbers 
+        89
+        6
+        56
+        average of three numbers is 50.3333
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f3">
+        <iframe src="../programs/FUNC3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        String 1: abcde
+        Middle character: c
+        
+        String 2: abcdef
+        Middle character: cd
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f4">
+        <iframe src="../programs/FUNC4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Twin prime numbers less than 100 are: 3 and 5, 5 and 7, 11 and 13, 17 and 19, 29 and 31, 41 and 43, 59 and 61, 71 and 73,
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f5">
+        <iframe src="../programs/FUNC5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Number of digits with value 2 in 22253: 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="f6">
+        <iframe src="../programs/FUNC6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter your name and job title: sanju Manager
+        Enter your salary: 25000
+        Name: sanju
+        Title: Manager
+        Salary: 21000
+        This is your salary after deducting PF and GST.
+        Enter your name and job title: shruti Engineer
+        Enter your salary: 18000
+        Name: shruti
+        Title: Engineer
+        Salary: 18000
+        There is no deduction in your salary.
+        
+      </pre>
+    </div>
+    <div class="left">
+      <div id="f7">
+        <div class="code">
+        <iframe src="../programs/FUNC7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        String 1: All characters are vowels
+        String 2: Not all characters are vowels
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA1">
+        <iframe src="../programs/DR1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows: 3
+Enter the number of columns: 7
+Enter the elements of the matrix:
+Enter element at position (0,0): 1
+Enter element at position (0,1): 2
+Enter element at position (0,2): 3
+Enter element at position (0,3): 4
+Enter element at position (0,4): 5
+Enter element at position (0,5): 6
+Enter element at position (0,6): 2
+Enter element at position (1,0): 7
+Enter element at position (1,1): 8
+Enter element at position (1,2): 9
+Enter element at position (1,3): 3
+Enter element at position (1,4): 9
+Enter element at position (1,5): 1
+Enter element at position (1,6): 8
+Enter element at position (2,0): 3
+Enter element at position (2,1): 5
+Enter element at position (2,2): 7
+Enter element at position (2,3): 12
+Enter element at position (2,4): 23
+Enter element at position (2,5): 45
+Enter element at position (2,6): 23
+Matrix:
+1 2 3 4 5 6 2 
+7 8 9 3 9 1 8 
+3 5 7 12 23 45 23 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA2">
+        <iframe src="../programs/DR2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for matrices A and B: 2
+        Enter the number of columns for matrices A and B: 4
+        Enter elements of matrix A:
+        Enter element at position (0,0): 34
+        Enter element at position (0,1): 56
+        Enter element at position (0,2): 34
+        Enter element at position (0,3): 56
+        Enter element at position (1,0): 34
+        Enter element at position (1,1): 56
+        Enter element at position (1,2): 23
+        Enter element at position (1,3): 45
+        Enter elements of matrix B:
+        Enter element at position (0,0): 34
+        Enter element at position (0,1): 23
+        Enter element at position (0,2): 12
+        Enter element at position (0,3): 34
+        Enter element at position (1,0): 45
+        Enter element at position (1,1): 23
+        Enter element at position (1,2): 22
+        Enter element at position (1,3): 12
+        Matrix A:
+        34 56 34 56 
+        34 56 23 45 
+        Matrix B:
+        34 23 12 34 
+        45 23 22 12 
+        Resultant Matrix:
+        68 79 46 90 
+        79 79 45 57 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA3">
+        <iframe src="../programs/DR3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for matrix A: 3
+        Enter the number of columns for matrix A: 2
+        Enter the number of rows for matrix B: 3
+        Enter the number of columns for matrix B: 2
+        Matrices cannot be multiplied. Number of columns in matrix A should be equal to number of rows in matrix B.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA4">
+        <iframe src="../programs/DR4.CPP"></iframe>
+      </div>
+    </div>
+    <div class=right>
+    <pre>
+      Enter the number of rows for matrices A and B: 2
+      Enter the number of columns for matrices A and B: 3
+      Enter elements of matrix A:
+      Enter element at position (0,0): 2
+      Enter element at position (0,1): 3
+      Enter element at position (0,2): 2
+      Enter element at position (1,0): 3
+      Enter element at position (1,1): 2
+      Enter element at position (1,2): 3
+      Enter elements of matrix B:
+      Enter element at position (0,0): 2
+      Enter element at position (0,1): 4
+      Enter element at position (0,2): 5
+      Enter element at position (1,0): 45
+      Enter element at position (1,1): 4
+      
+      5
+      Enter element at position (1,2): 45
+      Matrix A:
+      2 3 2 
+      3 2 3 
+      Matrix B:
+      2 4 5 
+      4 5 45 
+      Resultant Matrix:
+      0 -1 -3 
+      -1 -3 -42 
+    </pre>
+    </div>    
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA5">
+        <iframe src="../programs/DR5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for matrices A and B: 1
+        Enter the number of columns for matrices A and B: 2
+        Enter elements of matrix A:
+        Enter element at position (0,0): 1
+        Enter element at position (0,1): 4
+        Enter elements of matrix B:
+        Enter element at position (0,0): 5
+        Enter element at position (0,1): 6
+        Matrices A and B are not equal.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA6">
+        <iframe src="../programs/DR6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the size of the square matrix: 2
+        Enter elements of the square matrix:
+        Enter element at position (0,0): 3
+        Enter element at position (0,1): 4
+        Enter element at position (1,0): 5
+        Enter element at position (1,1): 6
+        Lower Triangular Matrix:
+        3 0 
+        5 6 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA7">
+        <iframe src="../programs/DR7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the size of the square matrix: 3
+        Enter elements of the square matrix:
+        Enter element at position (0,0): 56
+        Enter element at position (0,1): 45
+        Enter element at position (0,2): 34
+        Enter element at position (1,0): 231
+        Enter element at position (1,1): 2
+        Enter element at position (1,2): 23
+        Enter element at position (2,0): 45
+        Enter element at position (2,1): 56
+        Enter element at position (2,2): 78
+        Upper Triangular Matrix:
+        56 45 34 
+        0 2 23 
+        0 0 78 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA8">
+        <iframe src="../programs/DR8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for the matrix: 3
+        Enter the number of columns for the matrix: 4
+        Enter elements of the matrix:
+        Enter element at position (0,0): 674
+        Enter element at position (0,1): 73
+        Enter element at position (0,2): 727
+        Enter element at position (0,3): 228
+        Enter element at position (1,0): 37
+        Enter element at position (1,1): 17
+        Enter element at position (1,2): 29
+        Enter element at position (1,3): 29
+        Enter element at position (2,0): 18
+        Enter element at position (2,1): 283
+        Enter element at position (2,2): 9
+        Enter element at position (2,3): 29
+        Frequency of odd numbers: 9
+        Frequency of even numbers: 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA9">
+        <iframe src="../programs/DR9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for the matrix: 2
+        Enter the number of columns for the matrix: 3
+        Enter elements of the matrix:
+        Enter element at position (0,0): 23
+        Enter element at position (0,1): 34
+        Enter element at position (0,2): 353
+        Enter element at position (1,0): 6
+        Enter element at position (1,1): 37
+        Enter element at position (1,2): 38
+        Sum of each row:
+        Row 1: 92
+        Row 2: 81
+        Sum of each column:
+        Column 1: 29
+        Column 2: 71
+        Column 3: 73
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA10">
+        <iframe src="../programs/DR10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the size of the square matrix: 3
+        Enter elements of the square matrix:
+        Enter element at position (0,0): 675
+        Enter element at position (0,1): 64
+        Enter element at position (0,2): 64
+        Enter element at position (1,0): 38
+        Enter element at position (1,1): 28
+        Enter element at position (1,2): 39
+        Enter element at position (2,0): 3564
+        Enter element at position (2,1): 467
+        Enter element at position (2,2): 453
+        The given matrix is not an identity matrix.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DA11">
+        <iframe src="../programs/DR11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for the matrix: 2
+        Enter the number of columns for the matrix: 3
+        Enter elements of the matrix:
+        Enter element at position (0,0): 674
+        Enter element at position (0,1): 5
+        Enter element at position (0,2): 32
+        Enter element at position (1,0): 14
+        Enter element at position (1,1): 4
+        Enter element at position (1,2): 5
+        Original Matrix:
+        67 5 3 
+        1 4 5 
+        Transposed Matrix:
+        67 1 
+        5 4 
+        3 5 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+        <div class="left">
+      <div id="DA12">
+        <iframe src="../programs/DR12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of rows for the matrix: 2
+        Enter the number of columns for the matrix: 3
+        Enter elements of the matrix:
+        Enter element at position (0,0): 645
+        Enter element at position (0,1): 4553
+        Enter element at position (0,2): 45
+        Enter element at position (1,0): 342
+        Enter element at position (1,1): 333
+        Enter element at position (1,2): 344
+        Enter the threshold percentage for zero elements (0-100): 45
+        The given matrix is not a sparse matrix.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D1">
+        <iframe src="../programs/DC1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string representing an integer: 123
+        Converted integer: 123
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D2">
+        <iframe src="../programs/DC2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter an integer: 89
+        Converted string: 89
+        </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D3">
+        <iframe src="../programs/DC3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string representing a long integer: 78999999999.000
+        Converted long integer: 78999999999
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D4">
+        <iframe src="../programs/DC4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+    <pre>
+      Enter a long integer: 899999999999
+      Converted string: 899999999999
+    </pre>  
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D5">
+        <iframe src="../programs/DC5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string representing a float: 8.6674535
+        Converted float: 8.66745
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D6">
+        <iframe src="../programs/DC6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a float: 8.654
+        Converted string: 8.654000
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D7">
+        <iframe src="../programs/DC7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string representing a double: 6.5463726863
+        Converted double: 6.54637
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D8">
+        <iframe src="../programs/DC8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a double: 89.567456
+        Converted string: 89.567456
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="D9">
+        <iframe src="../programs/DC9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a digit character: i
+        Converted integer: 57
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC10">
+        <iframe src="../programs/DC10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter an integer (0-9): 9
+        Converted character: 9
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC11">
+        <iframe src="../programs/DC11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a binary number: 1001001
+        Decimal equivalent: 73
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC12">
+        <iframe src="../programs/DC12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a decimal number: 8
+        Binary equivalent: 1000
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC13">
+        <iframe src="../programs/DC13.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a hexadecimal number: 6
+        Decimal equivalent: 6
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC14">
+        <iframe src="../programs/DC14.CPP"></iframe>
+      </div>
+    </div>
+    <div class ="right">
+      <pre>
+        Enter a decimal number: 13
+        Hexadecimal equivalent: d
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC15">
+        <iframe src="../programs/DC15.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter an octal number: 90
+        Decimal equivalent: 72
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="DC16">
+        <iframe src="../programs/DC16.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a decimal number: 78
+        Octal equivalent: 116
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH1">
+        <iframe src="../programs/FH1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Text has been written to the file successfully.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH2">
+        <iframe src="../programs/FH2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Contents of the file:
+        Hello, this is a text file created using C++.
+        This is the second line of text.
+        And here is the third line.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH3">
+        <iframe src="../programs/FH3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Number of lines in the file:3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH4">
+        <iframe src="../programs/FH4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <prE>
+        Number of words in the file: 56
+      </prE>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH5">
+        <iframe src="../programs/FH5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Contents copied successfully
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH6">
+        <iframe src="../programs/FH6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Word replaced successfully.
+        </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH7">
+        <iframe src="../programs/FH7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Data appended successfully.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH8">
+        <iframe src="../programs/FH8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Lines sorted successfully.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH9">
+        <iframe src="../programs/FH9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+files merged sucessfully
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH10">
+        <iframe src="../programs/FH10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        File split successfully into 3 parts.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH11">
+        <iframe src="../programs/FH11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The string 'hello' is not found in the file.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH12">
+        <iframe src="../programs/FH12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <prE>
+        File encrypted successfully.
+      </prE>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH13">
+        <iframe src="../programs/FH13.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        File decrypted successfully.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH14">
+        <iframe src="../programs/FH14.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Name          |Age           |City          |
+        kamini roy    |30            |chandigarh    |
+        nisha roy     |25            |bombay        |
+        rajkumar      |35            |kolkata       |
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH15">
+        <iframe src="../programs/FH15.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Error: No valid numbers found in the file.
+
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="FH16">
+        <iframe src="../programs/FH16.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Options:
+        1. Insert Record
+        2. Delete Record
+        3. Update Record
+        4. Search Record
+        5. Clone the file
+        6. Exit
+        Enter your choice: 1
+        Enter roll number: 101
+        Enter name: marry
+        Enter marks: 85.5
+        Enter mobile number: 1234567890
+        Record inserted successfully.
+        
+        Options:
+        1. Insert Record
+        2. Delete Record
+        3. Update Record
+        4. Search Record
+        5. Clone the file
+        6. Exit
+        Enter your choice: 4
+        Enter roll number to search record: 101
+        Roll No: 101
+        Name: marry
+        Marks: 85.5
+        Mobile No: 1234567890
+        
+        Options:
+        1. Insert Record
+        2. Delete Record
+        3. Update Record
+        4. Search Record
+        5. Clone the file
+        6. Exit
+        Enter your choice: 3
+        Enter roll number to update record: 101
+        Enter new name: shruti jaiswal 
+        Enter new marks: 90.0
+        Enter new mobile number: 9876543210
+        Record updated successfully.
+        
+        Options:
+        1. Insert Record
+        2. Delete Record
+        3. Update Record
+        4. Search Record
+        5. Clone the file
+        6. Exit
+        Enter your choice: 5
+        File cloned successfully.
+        
+        Options:
+        1. Insert Record
+        2. Delete Record
+        3. Update Record
+        4. Search Record
+        5. Clone the file
+        6. Exit
+        Enter your choice: 6
+        Exiting...
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I1">
+        <iframe src="../programs/IN1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Animal sound: Some generic sound...
+        Cat sound: Meow!
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I2">
+        <iframe src="../programs/IN2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Vehicle status: Driving a vehicle...
+        Car status: Repairing a car...
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I3">
+        <iframe src="../programs/IN3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Area of the rectangle: 15
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I4">
+        <iframe src="../programs/IN4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Working as an HR manager...
+        Added employee: karuna
+        Added employee: shweta
+        HR Manager's salary: $5000
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I5">
+        <iframe src="../programs/IN5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Deposited $100. Current balance: $300
+        Withdrawn $50. Current balance: $250
+        Withdrawn $150. Current balance: $100
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I6">
+        <iframe src="../programs/IN6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Animal movement: Moving...
+        Cheetah movement: Running like a cheetah!
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I7">
+        <iframe src="../programs/IN7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Employee's full name: nisha roy, Software Engineer
+        Employee ID: E123
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I8">
+        <iframe src="../programs/IN8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Perimeter of the circle: 31.4159
+        Area of the circle: 78.5398
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I9">
+        <iframe src="../programs/IN9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Truck Fuel Efficiency: 500 miles
+        Car Fuel Efficiency: 375 miles
+        Motorcycle Fuel Efficiency: 200 miles
+        Truck Distance Traveled in 2.5 hours: 1250 miles
+        Car Distance Traveled in 2.5 hours: 937.5 miles
+        Motorcycle Distance Traveled in 2.5 hours: 500 miles
+        Truck Maximum Speed: 70 mph
+        Car Maximum Speed: 120 mph
+        Motorcycle Maximum Speed: 150 mph
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="I10">
+        <iframe src="../programs/IN10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Bonus for kavya (Manager): $500
+        Bonus for sheetal (Developer): $200
+        Bonus for paras (Programmer): $315
+        Performance report for kavya (Manager):
+        This manager has successfully completed the project assigned.
+        Performance report for sheetal (Developer):
+        This developer has completed coding tasks efficiently.
+        Performance report for paras (Programmer):
+        This programmer has successfully completed programming tasks.
+        kavya is managing a new project.
+        sheetal is not assigned to manage any projects.
+        paras is not assigned to manage any projects.
+                        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP1">
+        <iframe src="../programs/OP1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Result of addition: 5 + 3i
+        </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP2">
+        <iframe src="../programs/OP2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Result of addition: 5/6
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP3">
+        <iframe src="../programs/OP3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Result of multiplication:
+        58 64 
+        139 154 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP4">
+        <iframe src="../programs/OP4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Concatenated string: Hello, world!
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP5">
+        <iframe src="../programs/OP5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Date 1 is less than Date 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP6">
+        <iframe src="../programs/OP6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Total amount: $26.25
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP7">
+        <iframe src="../programs/OP7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        rect1 and rect2 are equal
+        rect1 and rect3 are equal
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="OP8">
+        <iframe src="../programs/OP8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Time: 10:30
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa1">
+        <iframe src="../programs/arr1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+<pre>
+  Contents of the destination array:
+  1 2 3 4 5 
+</pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa2">
+        <iframe src="../programs/arr2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Frequency of each element in the array:
+        4: 1
+        5: 1
+        3: 2
+        2: 3
+        1: 3 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa3">
+        <iframe src="../programs/arr3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of positions to rotate left: 3
+        Array after left rotation:
+        4 5 1 2 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa4">
+        <iframe src="../programs/arr4.CPP"></iframe>
+      </div>
+    </div>
+    <div class=" right">
+      <pre>
+        Duplicate elements in the array: 7 4 2 
+      </pre>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa5">
+        <iframe src="../programs/arr5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Elements of the array:
+        1 2 3 4 5 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa6">
+        <iframe src="../programs/arr6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Elements of the array in reverse order:
+        5 4 3 2 1
+      </pre>
+    </div>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa7">
+        <iframe src="../programs/arr7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <prE>
+        Elements of the array at even positions:
+        1 3 5 7 9
+      </prE>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa8">
+        <iframe src="../programs/arr8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Elements of the array at odd positions:
+        2 4 6 8 10 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa9">
+        <iframe src="../programs/arr9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Largest element in the array: 50
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa10">
+        <iframe src="../programs/arr10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Smallest element in the array: 10
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa11">
+        <iframe src="../programs/arr11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Number of elements in the array: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa12">
+        <iframe src="../programs/arr12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sum of all elements in the array: 150
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa13">
+        <iframe src="../programs/arr13.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of positions to rotate right: 3
+        Array after right rotation:
+        3 4 5 1 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa14">
+        <iframe src="../programs/arr14.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array sorted in ascending order:
+        1 2 3 5 9 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa15">
+        <iframe src="../programs/arr15.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array sorted in descending order:
+        9 5 3 2 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa16">
+        <iframe src="../programs/arr16.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The 3rd largest number in the array is: 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa17">
+        <iframe src="../programs/arr17.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The 2nd largest number in the array is: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa18">
+        <iframe src="../programs/arr18.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The largest number in the array is: 9
+      </pre>
+    </div>
+    </div>
+    <div class=code>
+         <div class="left">
+      <div id="sa19">
+        <iframe src="../programs/arr19.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The 2nd smallest number in the array is: 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa20">
+        <iframe src="../programs/arr20.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The smallest number in the array is: 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa21">
+        <iframe src="../programs/arr21.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array after removing duplicates:
+        1 2 3 4 5 6 7
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa22">
+        <iframe src="../programs/arr22.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Odd numbers: 1 3 5 7 9 
+        Even numbers: 2 4 6 8 10
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa23">
+        <iframe src="../programs/arr23.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Original array: 1 2 3 4 5 
+        New array after swapping first and last elements: 5 2 3 4 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa24">
+        <iframe src="../programs/arr24.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Number of even elements: 5
+        Number of odd elements: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa25">
+        <iframe src="../programs/arr25.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sum of values in the array: 15
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa26">
+        <iframe src="../programs/arr26.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Index of 3 in the array: 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa27">
+        <iframe src="../programs/arr27.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Average value of array elements: 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa28">
+        <iframe src="../programs/arr28.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The array contains the value 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa29">
+        <iframe src="../programs/arr29.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The array contains the value 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa30">
+        <iframe src="../programs/arr30.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array after inserting 10 at position 2: 1 2 10 3 4 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa31">
+        <iframe src="../programs/arr31.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Reversed array: 5 4 3 2 1 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa32">
+        <iframe src="../programs/arr32.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Common elements between the two arrays: 3 4 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa33">
+        <iframe src="../programs/arr33.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Duplicate values in the array: 1 2 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa34">
+        <iframe src="../programs/arr34.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The second largest number in the array is: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa35">
+        <iframe src="../programs/arr35.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        The second lowest number in the array is: 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa36">
+        <iframe src="../programs/arr36.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Number of even integers: 5
+        Number of odd integers: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa37">
+        <iframe src="../programs/arr37.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Difference between the largest and smallest values: 8
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa38">
+        <iframe src="../programs/arr38.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array after segregating 0s on left and 1s on right: 0 0 0 0 1 1 1 1 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa39">
+        <iframe src="../programs/arr39.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Array after rotating clockwise by one position: 5 1 2 3 4
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa40">
+        <iframe src="../programs/arr40.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Unique elements in the array: 5 4 3 2 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa41">
+        <iframe src="../programs/arr41.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sorted array in ascending order: 1 2 3 5 9
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa42">
+        <iframe src="../programs/arr42.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sorted array in descending order: 9 5 3 2 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="sa43">
+        <iframe src="../programs/arr43.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Element 9 found at index 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s1">
+        <iframe src="../programs/str1.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter String 1 : hello
+    
+        Enter String 2 : yellow
+        hello and yellow are not anagram
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s2">
+        <iframe src="../programs/str2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the string: hello
+        Enter the first character: e
+        Enter the second character: 0
+        String after swapping characters: h0llo
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s3">
+        <iframe src="../programs/str3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        The string contains characters other than digits.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s4">
+        <iframe src="../programs/str4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Original String: Hello, world!
+        Copied String: Hello, world!
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s5">
+        <iframe src="../programs/str5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello 
+        Enter the character to remove: o
+        String after removing all occurrences of 'o': hell
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s6">
+        <iframe src="../programs/str6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Enter characters to add: baby
+        String after adding characters: hellobaby
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s7">
+        <iframe src="../programs/str7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        The string is not a palindrome.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s8">
+        <iframe src="../programs/str8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Today is Wednesday
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s9">
+        <iframe src="../programs/str9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Number of words in the string: 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s10">
+        <iframe src="../programs/str10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Total number of characters in the string: 5
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s11">
+        <iframe src="../programs/str11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Total number of punctuation characters in the string: 0
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s12">
+        <iframe src="../programs/str12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Total number of vowels in the string: 2
+        Total number of consonants in the string: 3
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s13">
+        <iframe src="../programs/str13.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        The string is not a palindrome.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s14">
+        <iframe src="../programs/str14.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the first string: hello
+        Enter the second string: shruti
+        The second string is not a rotation of the first string.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s15">
+        <iframe src="../programs/str15.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Enter the number of parts to divide the string into: 3
+        Divided parts of the string:
+        he
+        ll
+        o
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s16">
+        <iframe src="../programs/str16.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Subsets of the string:
+        
+        h
+        e
+        he
+        l
+        hl
+        el
+        hel
+        l
+        hl
+        el
+        hel
+        ll
+        hll
+        ell
+        hell
+        o
+        ho
+        eo
+        heo
+        lo
+        hlo
+        elo
+        helo
+        lo
+        hlo
+        elo
+        helo
+        llo
+        hllo
+        ello
+        hello
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s17">
+        <iframe src="../programs/str17.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hell
+        hell
+        hell
+        hlel
+        hlle
+        hlle
+        hlel
+        ehll
+        ehll
+        elhl
+        ellh
+        ellh
+        elhl
+        lehl
+        lelh
+        lhel
+        lhle
+        llhe
+        lleh
+        lelh
+        lehl
+        lleh
+        llhe
+        lhle
+        lhel
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s18">
+        <iframe src="../programs/str18.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world 
+        Maximum occurring character: l
+        Minimum occurring character: d
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s19">
+        <iframe src="../programs/str19.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world
+        Reverse of the string: dlrow olleh
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s20">
+        <iframe src="../programs/str20.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world
+        Duplicate characters in the string: o l 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s21">
+        <iframe src="../programs/str21.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world 
+        Duplicate words in the string:
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s22">
+        <iframe src="../programs/str22.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world
+        Character frequencies in the string:
+        'd': 1
+        'w': 1
+        ' ': 1
+        'o': 2
+        'l': 3
+        'r': 1
+        'e': 1
+        'h': 1
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s23">
+        <iframe src="../programs/str23.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Smallest word: hello
+        Largest word: hello
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s24">
+        <iframe src="../programs/str24.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: helo
+        No repeating sequence found
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s25">
+        <iframe src="../programs/str25.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the filename: c++4028
+        No words found in the file.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s26">
+        <iframe src="../programs/str26.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the filename: 4028
+        Number of words in the file: 0
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s27">
+        <iframe src="../programs/str27.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Enter the position of the character you want to retrieve (0-based): 2
+        Character at position 2: l
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s28">
+        <iframe src="../programs/str28.CPP"></iframe>
+      </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter the original string: Hello, World!
+          Enter the string to insert: beautiful 
+          Enter the position to insert the string (0-based): 7
+          Result after inserting: Hello, beautiful World!
+          
+        </pre>
+      </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s29">
+        <iframe src="../programs/str29.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        hello
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s30">
+        <iframe src="../programs/str30.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello world 
+        Even length words in the string
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s31">
+        <iframe src="../programs/str31.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: lol
+        Smallest palindrome word: lol
+        Largest palindrome word: lol
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s32">
+        <iframe src="../programs/str32.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        String after removing white spaces: hello
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s33">
+        <iframe src="../programs/str33.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        String after swapping case: HELLO
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s34">
+        <iframe src="../programs/str34.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Enter the character to replace spaces with: l
+        String after replacing spaces: hello
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s35">
+        <iframe src="../programs/str35.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: hello
+        Individual characters from the string:
+        h
+        e
+        l
+        l
+        o
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s36">
+        <iframe src="../programs/str36.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: delimeter
+        Enter the delimiter character: d
+        Enter the number of substrings: 2
+        Substrings:
+        
+        elimeter
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s37">
+        <iframe src="../programs/str37.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the first string: shruti
+        Enter the second string: jaiswal 
+        After swapping:
+        First string: jaiswa
+        Second string: shruti
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s38">
+        <iframe src="../programs/str38.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the first string: here 
+        Enter the second string: iam
+        The first string does not contain the second string.
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s39">
+        <iframe src="../programs/str39.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: not again
+        Reversed string: again not
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s40">
+        <iframe src="../programs/str40.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the first string: hell
+        Enter the second string: is 
+        The strings are not created with the same characters.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s41">
+        <iframe src="../programs/str41.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: just enough
+        The first non-repeated character is: j
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s42">
+        <iframe src="../programs/str42.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: bad day 
+        Number of words in the string: 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s43">
+        <iframe src="../programs/str43.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a string: good 
+        Number of vowels in the string: 2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s44">
+        <iframe src="../programs/str44.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the number of names: 5
+        Enter name 1: shruti
+        Enter name 2: shalini
+        Enter name 3: deepak
+        Enter name 4: dinesh
+        Enter name 5: sunita 
+        
+        Sorted names in alphabetical order:
+        deepak
+        dinesh
+        shalini
+        shruti
+        sunita 
+        
+        
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s45">
+        <iframe src="../programs/str45.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <prE>
+        Enter a string: shruti
+        Number of words in the string: 1
+      </prE>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s46">
+        <iframe src="../programs/str46.CPP"></iframe>
+      </div>
+    </div>
+    <div class="code">
+      <pre>
+        Enter the present value of the investment: 56000
+        Enter the annual interest rate (in percentage): 10
+        Enter the number of years: 2
+        The future value of the investment after 2 years is: 67760
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s47">
+        <iframe src="../programs/str47.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter the start character: a
+        Enter the end character: n
+        Characters between a and n are: a b c d e f g h i j k l m n 
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s48">
+        <iframe src="../programs/str48.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Enter a password: 12@hello
+        Password is not valid.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="s49">
+        <iframe src="../programs/str49.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Current date and time: 2024-4-7 10:48:31
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+      <div class="left">
+        <div id="s50">
+          <iframe src="../programs/str50.CPP"></iframe>
+        </div>
+      </div>
+      <div class="right">
+        <pre>
+          Enter three integers: 89
+          8
+          34
+          None of the integers is the middle point between the other two.
+        </pre>
+      </div>
+      </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh1">
+        <iframe src="../programs/file1.CPP"></iframe>
+      </div>
+      </div>
+      <div class="right">
+        <pre>
+          Sound of Lion: Lion Roars!
+          Sound of Tiger: Tiger Growls!
+        </pre>
+      </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh2">
+        <iframe src="../programs/file2.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sound of Lion: Lion roars!
+        Sound of Tiger: Tiger growls!
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh3">
+        <iframe src="../programs/file3.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Circle:
+        Area: 78.5398
+        Perimeter: 31.4159
+        
+        Triangle:
+        Area: 6
+        Perimeter: 12
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh4">
+        <iframe src="../programs/file4.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Savings Account:
+        Balance: 1000
+        Balance: 500
+        
+        Current Account:
+        Balance: 2000
+        Balance: 1000
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh5">
+        <iframe src="../programs/file5.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Lion:
+        Lion eats meat.
+        Lion sleeps in a cave.
+        
+        Tiger:
+        Tiger eats meat.
+        Tiger sleeps in a jungle.
+        
+        Deer:
+        Deer eats grass.
+        Deer sleeps under trees.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh6">
+        <iframe src="../programs/file6.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Manager Information:
+        Manager Name: John Doe
+        Base Salary: 5000
+        Bonus: 1500
+        Total Salary: 6500
+        
+        Programmer Information:
+        Programmer Name: Alice Smith
+        Base Salary: 4000
+        Number of Projects: 3
+        Total Salary: 5500
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh7">
+        <iframe src="../programs/file7.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Sphere:
+        Volume: 523.599
+        Surface Area: 314.159
+        
+        Cube:
+        Volume: 27
+        Surface Area: 54
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh8">
+        <iframe src="../programs/file8.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Car:
+        Car engine started.
+        Car engine stopped.
+        
+        Motorcycle:
+        Motorcycle engine started.
+        Motorcycle engine stopped.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh9">
+        <iframe src="../programs/file9.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Athlete:
+        Athlete eats a balanced diet with high protein content.
+        Athlete performs intense physical training regularly.
+        
+        Lazy Person:
+        Lazy person eats junk food and snacks a lot.
+        Lazy person avoids exercise and prefers sedentary lifestyle.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh10">
+        <iframe src="../programs/file10.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Glockenspiel:
+        Glockenspiel makes tinkling sounds when played.
+        Glockenspiel is tuned by adjusting the individual bars.
+        
+        Violin:
+        Violin produces melodious sounds when played with a bow.
+        Violin is tuned by adjusting the tension of the strings.
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh11">
+        <iframe src="../programs/file11.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Rectangle:
+        Drawing rectangle with width 5 and height 3
+        Resized rectangle with width 7.5 and height 4.5
+        
+        Circle:
+        Drawing circle with radius 4
+        Resized circle with radius 3.2
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh12">
+        <iframe src="../programs/file12.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Triangle:
+        Area: 6
+        Perimeter: 12
+        
+        Square:
+        Area: 25
+        Perimeter: 20
+      </pre>
+    </div>
+    </div>
+    <div class="code">
+    <div class="left">
+      <div id="fh13">
+        <iframe src="..programs/file13.CPP"></iframe>
+      </div>
+    </div>
+    <div class="right">
+      <pre>
+        Eagle:
+Eagle soars high in the sky.
+Eagle makes a screeching sound.
+
+Hawk:
+Hawk flies swiftly with precision.
+Hawk emits a piercing cry.
+      </pre>
+    </div>
+    </div>
+  </div>
+  </div>
+</body>
+
+</html>
